@@ -1,0 +1,3 @@
+# Empathic-AI Agent Winter 2025
+
+This repository contains the code of creating an AI agent which attempts to understand the user prompt by analyzing if their prompt is ambigious. Many times, users go back and forth with LLMs because the LLM fails to understand what the underlying meaning of the prompt is. This repository contains source code which analyses the text, detects ambiguities, and generates a clarifying question if needed. This project was done under the supervision of Prof. Rutwa Engineer. 
