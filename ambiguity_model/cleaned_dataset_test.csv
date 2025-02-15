@@ -1,0 +1,75 @@
+id,sentence_id,sentence,label
+,ID,Sentence,Detected as
+1.0,diagnostic#01,"The absolute time of input will be associated with each sensed data item for its complete lifecycle, including permanent storage.",NOCUOUS
+2.0,diagnostic#02,Each sensed data item will be qualified as to its certitude during the acquisition process.,INNOCUOUS
+3.0,diagnostic#03,Sensed data input to the tool shall be validated with respect to its expected range of values.,INNOCUOUS
+4.0,diagnostic#04,"The faults identified and their causes and sources, shall be saved to permanent storage for subsequent analysis.",INNOCUOUS
+5.0,diagnostic#05,"The tool shall monitor the unit under diagnosis, either in real time or batch mode, for an indefinite period of time or until input data are no longer available, and log diagnostic results as they are determined.",NOCUOUS
+6.0,diagnostic#06,"Selecting the “Configure Diagnostics” menu item of the main menu entitled “File” shall display the configuration window, making it the current window, modal to the main window.",NOCUOUS
+7.0,diagnostic#07,Entering a file name shall cause the permanent storage of the modified parameters and their immediate use by the diagnostic operations after confirmatory responses by the user.,INNOCUOUS
+8.0,diagnostic#08,"If the user does not confirm the request to save, it will not be performed.",INNOCUOUS
+9.0,diagnostic#09,"If the user does not confirm the request to relay the modified parameters to the diagnostic processing immediately, it will not be performed.",NOCUOUS
+10.0,diagnostic#10,"The subsystems window, condition window, and diagnostic information window shall display a title that indicates its specific location or absolute path in the navigation hierarchy of windows.",NOCUOUS
+11.0,diagnostic#11,This set(s) of indicators shall summarize diagnostic indicators not currently appearing on the list above (below) it.,NOCUOUS
+12.0,diagnostic#12,An indicator in the summary set shall be active if any similar indicator not appearing above (or below) it is active.,NOCUOUS
+13.0,diagnostic#13,The third window in the hierarchy is the subsystems window and it can only be displayed by a user selection on the main window.,INNOCUOUS
+14.0,diagnostic#14,The fourth window in the hierarchy is the condition window and it can only be displayed by a user selection on the subsystems window.,INNOCUOUS
+15.0,diagnostic#15,This window can only be displayed by a user selection on the condition window or by a user selection on the diagnostic history window if it is displayed.,NOCUOUS
+16.0,library#26-0,"In addition, some publishers may only allow their material to be served up through NLM’s system at a certain interval after its publication.",INNOCUOUS
+17.0,library#26-1,"In addition, some publishers may only allow their material to be served up through NLM’s system at a certain interval after its publication.",NOCUOUS
+18.0,library#27,The Archival Information Update function in Administration also submits dissemination requests to obtain DIPs needed to perform its update functions.,NOCUOUS
+19.0,library#28,"During the development of the functional requirements for the NLM Digital Repository, it has become apparent that NLM will have several repositories – LocatorPlus, PubMed Central (covering journals), and the digital repository currently under investigation.",NOCUOUS
+20.0,library#29,"It is possible that the initial NLM Repository may be composed of more than one electronic storage facility, especially in the early development of the repository.",NOCUOUS
+21.0,library#30,"The NLM System Administration/Programming Access: Provides an NLM Administrative/Programming Level, ultimate rights to the system, required for its management, development, and for assigning appropriate rights to users.",NOCUOUS
+22.0,library#31,"Access rights and conditions to materials and the directories/folders in which they are kept must provide for one or more of the following basic privileges, either alone or in combination:• Create/Write access• Edit access• Read access• Delete access.",NOCUOUS
+23.0,library#32,Both an object and its related metadata may be embargoed in terms of public access.,INNOCUOUS
+24.0,library#33,Access rights and conditions of use will be held for each digital object and its related metadata.,INNOCUOUS
+25.0,library#34,"System must have the ability to search and display metadata, preferably in a user-conformable, human readable display as well as in its native format for machine harvesting and manipulation.",NOCUOUS
+26.0,weather#21,The Clarus program shall maintain information about requestors and their access to data and information.,INNOCUOUS
+27.0,weather#22,The Clarus program shall operate the Clarus system according to its published IT Security Plan.,NOCUOUS
+28.0,weather#23,The QChS shall be able to use historical environmental data in their quality checking algorithms.,NOCUOUS
+29.0,weather#24,The QChS shall be implemented to quality check new observation types as they become available.,NOCUOUS
+30.0,weather#25,The Clarus system shall process data as they are received.,INNOCUOUS
+31.0,weather#26,The QChS shall apply quality flags to data as they are received.,NOCUOUS
+32.0,weather#27,The SS shall record when it initiates actions.,INNOCUOUS
+33.0,weather#28,The Clarus system shall be able to publish environmental data at three times the volume rate that it collects it.,NOCUOUS
+34.0,archive#01,"It shall be possible to request that automatically generated migration metadata be stored in the converted iles (e.g., OS/Kernel type, original ARC name, ARC size, ARC digests, conversion timestamp, ARC record offset, ...).",INNOCUOUS
+35.0,archive#02-0,The IIPC members should provide us with the default METADATA they want to be included for migration.,NOCUOUS
+36.0,archive#02-1,The IIPC members should provide us with the default METADATA they want to be included for migration.,INNOCUOUS
+37.0,archive#03,"Software checkpoints (such as start-trans, end-trans) may be added during processing for managing atomic transactions (e.g., operations on a ile, these must start and complete to be accepted in the migration), except where operating system limitations would prohibit it.",NOCUOUS
+38.0,archive#04,It shall be possible to perform a “dry-run migration”.,INNOCUOUS
+39.0,archive#05,"To validate that the migration succeeded, arc_warc_verify will use the METADATA included in the newly generated WARC iles to match records with their corresponding ARC iles (see FR4, and FR5).",NOCUOUS
+40.0,archive#06,Enhance the WARC browser to display aggregated WARCs summaries in its UI.,INNOCUOUS
+41.0,archive#07,Enhance the WARC browser to display a manifest of WARC iles and their locations.,INNOCUOUS
+42.0,railway#63,"As a train approaches the limits of the coverage of the PLMN it is registered with, it will be necessary for it to register with the next PLMN providing coverage.",NOCUOUS
+43.0,railway#64,Each type of equipment has slightly different requirements placed upon it in terms of EMC and climate.,INNOCUOUS
+44.0,railway#65,"Where other data interfaces are implemented, they should be of the RS422 standard.",INNOCUOUS
+45.0,railway#66,"Upon switch on, once the radio is connected to a mobile network, it shall be able to receive all calls made using the MSISDN or appropriate group call number.",NOCUOUS
+46.0,railway#67,"In addition, the Operational radio is specified to allow its use in the operating environment experienced on the operational railway (eg shunting and maintenance), with the specifications in this section taking priority over those in section 4 where any discrepancy is identified.",INNOCUOUS
+47.0,railway#68,The SIM cards shall be fixed into the radio such that they can only be removed by the use of a tool.,INNOCUOUS
+48.0,railway#69,"A group call controller who wishes to start talking (except in the case of an originator, a joiner or a re-joiner speaking for the first time5) shall indicate his wish, for example by pressing the PTT button, whereupon the 3-digit DTMF sequence “###” shall be transferred.",NOCUOUS
+49.0,railway#70,The terminal of the controller should receive a single DTMF grant tone “#” of duration 100ms  5ms sent by the network if it has detected the 3-digit DTMF sequence “###” and if the controller was not previously talking.,NOCUOUS
+50.0,railway#71,"Any group call controller who wishes to stop talking shall indicate his wish, for example by releasing the PTT button, whereupon the 3-digit DTMF sequence “#**” shall be transferred.",INNOCUOUS
+51.0,railway#72,"All Train Function Numbers and their associated MSISDN numbers shall be stored in the same routing database, which is the database of the GSM-R network in which the train is currently operating.",INNOCUOUS
+52.0,railway#73,"If functional numbers are to be used outside the EIRENE network, they will require either a public number allocation or, alternatively, an EIRENE Network Access Number (ENAN) may be used as described in 9.11 9.3.3 Each national railway should obtain a public numbering allocation for MSISDN numbers from the relevant regulatory bodies.",INNOCUOUS
+53.0,railway#74-0,It is the responsibility of each individual GSM-R operator to acquire a public domain NDC from their national telecommunications regulator.,NOCUOUS
+54.0,railway#74-1,It is the responsibility of each individual GSM-R operator to acquire a public domain NDC from their national telecommunications regulator.,INNOCUOUS
+55.0,railway#75,Mobiles shall be capable of operation using algorithms for all countries in which they need to roam.,NOCUOUS
+56.0,railway#76,"Functional numbering provides the mechanism by which a mobile terminal, or an item of equipment connected to a mobile terminal, can be addressed by a number identifying the function for which it is being used.",NOCUOUS
+57.0,railway#77,"For international Railway emergency calls, in order to minimise call set-up times, it is recommended that the anchor MSC always directly controls the cell where the Railway emergency call was originated.",NOCUOUS
+58.0,railway#78,Each mobile shall store a list of emergency Group IDs in the SIM appropriate to its function (the Cab radio will store Group ID 299 and 599 - see table 9-8).,NOCUOUS
+59.0,railway#79,"For post-incident analysis it is important that the initiation and receipt of Railway emergency calls by mobiles is confirmed by a message sent to a ground-based location (and also registered in the train borne recorder, in cases where a train borne recorder is connected to the Cab radio).",NOCUOUS
+60.0,railway#80,The common shunting group provides a point of contact for leaders and team members to set up a dedicated shunting group call for their shunting operation.,NOCUOUS
+61.0,railway#81,The terminal application shall prevent members of a dedicated shunting team from initiating a new call (unless they are registered as shunting team leader and have left shunting mode using the “maintain group call” function described in 14.2.4).,INNOCUOUS
+62.0,railway#82,Users shall be prevented from joining a dedicated shunting group by the EIRENE terminal application unless a valid functional number for the group has been successfully registered to the GSM-R network by their terminal.,INNOCUOUS
+63.0,railway#83,"If an ETCS equipped train passes a level transition to one or more levels for which it is not equipped, ETCS shall initiate a brake application.",INNOCUOUS
+64.0,space#21,"When memory alignment is permitted, Redundancy Management attempts to reintegrate a processor with the other members of its original FCP virtual group by commanding the affected FCP virtual group to perform re-synchronization operations.",NOCUOUS
+65.0,space#22,Network Element FTSS CSCIIBNF time-out Indicates that the members of the destination virtual group corresponding to the set bits did not free enough space in their input buffers to hold the incoming packet within the allowable time skew.,NOCUOUS
+66.0,space#23,The FTSS shall provide an API call to allow the ICP application to determine on which channel it resides.,NOCUOUS
+67.0,space#24,The FTPP shall recover from a babbling NE or ICP within 40 milliseconds after it is detected.,NOCUOUS
+68.0,space#25,It shall be possible to modify the CT whenever any of this information is changed by using a CT update primitive in a synchronous and atomic manner.,INNOCUOUS
+69.0,space#26,"When a majority, but not a unanimity, of FCP members are observed with packets in their output buffers, a time-out shall (3.2.2.6.7) be initiated.",NOCUOUS
+70.0,space#27,"When the timestamp counter reaches the maximum value (Hex FFFFFFFF or approximately 5500 seconds), it shall (3.2.2.7.6) wrap around to zero.",INNOCUOUS
+71.0,space#28,The Start-Up shall synchronize its FCP with other operational FCPs.,INNOCUOUS
+72.0,space#29,"The Scheduler shall detect 50 Hz, 10 Hz, and 1 Hz frame overruns at the next frame following the end of their respective rate boundaries.",NOCUOUS
+73.0,space#30,The FTSS shall wait for the ICP to signal that it has completed initialization before suspending the application for memory re-alignment.,NOCUOUS
