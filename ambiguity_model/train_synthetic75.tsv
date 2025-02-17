@@ -1,0 +1,206 @@
+ID	Sentence	Detected as
+1	library#01	All material that is stored in the repository will enter <referential>it</referential> via the Ingest function.	NOCUOUS
+2	library#02-1	The Library may want to accept important digital materials in non-standard formats in case <referential>we</referential> are able to migrate them to a more usable format in the future.	NOCUOUS
+3	library#02-2	The Library may want to accept important digital materials in non-standard formats in case we are able to migrate <referential>them</referential> to a more usable format in the future.	INNOCUOUS
+4	library#03	Once material has arrived, <referential>it</referential> must undergo several reviews, including virus checking, format compliance and anticipated content and file type.	INNOCUOUS
+5	library#04	Allows resources to be reviewed before a decision is made whether <referential>they</referential> should be retained.	INNOCUOUS
+6	library#05	Allows metadata to be stored in a database in a manner that conforms to repository reformatting and linked to <referential>their</referential> corresponding objects via an identifier.	INNOCUOUS
+7	library#06	The Coordinate Updates function also incorporates the storage identification information into the Descriptive Information for the AIP and transfers <referential>it</referential> to the Data Management entity along with a database update request.	NOCUOUS
+8	library#07	Archival Storage functions include receiving AIPs from Ingest and adding <referential>them</referential> to permanent storage, managing the storage hierarchy, refreshing the media on which archive holdings are stored, performing routine and special error checking, providing disaster recovery capabilities, and providing AIPs to Access to fulfill orders.	INNOCUOUS
+9	library#08	<referential>It</referential> will also conform to any special levels of service required for the AIP, or any special security measures that are required, and ensures the appropriate level of protection for the AIP.	NOCUOUS
+10	library#09	<referential>It</referential> monitors error logs to ensure AIPs are not corrupted during transfers.	NOCUOUS
+11	library#10	However, the data constituting the Packaging Information may be changed as long as <referential>it</referential> continues to perform the same function and there is a straightforward implementation that does not cause information loss.	NOCUOUS
+12	library#11	The migration strategy must select a storage medium, taking into consideration the expected and actual rates of errors encountered in various media types, <referential>their</referential> performance, and <referential>their</referential> costs of ownership.	INNOCUOUS
+13	library#12	This function receives an AIP request that identifies the requested AIP(s) and provides <referential>them</referential> on the requested media type or transfers <referential>them</referential> to a staging area.	INNOCUOUS
+14	library#13	The Generate Report function receives a report request from Ingest, Access or Administration and executes any queries or other processes necessary to generate the report that <referential>it</referential> supplies to the requester.	NOCUOUS
+15	library#14	<referential>It</referential> may also receive a report request from Access and provides descriptive information for a specific AIP.	NOCUOUS
+16	library#15	Administration functions include soliciting and negotiating submission agreements with producers, auditing submissions to ensure that <referential>they</referential> meet archive standards, and maintaining configuration management of system hardware and software.	NOCUOUS
+17	library#16	Audits data in SIPs or AIPs to ensure that <referential>they</referential> meet specified requirements.	NOCUOUS
+18	library#17	The Activate Requests function maintains a record of event-driven requests and periodically compares <referential>it</referential> to the contents of the archive to determine if all needed data is available.	NOCUOUS
+19	library#18	Maintains a record of event-driven events and compares <referential>it</referential> to the contents of the repository.	INNOCUOUS
+20	library#19	The Monitor Designated Community function interacts with archive Consumers and Producers to track changes in <referential>their</referential> service requirements and available product technologies.	INNOCUOUS
+21	library#20	Interacts with repository users and content providers to track changes in <referential>their</referential> service requirements and available product technologies.	NOCUOUS
+22	library#21	This function receives reports from the Monitor Designated Communities and Monitor Technology functions, and <referential>it</referential> receives performance information, inventory reports and summarized consumer comments from Administration.	INNOCUOUS
+23	library#22	This function also receives external data standards from Monitor Technology and produces profiles of those standards that are sent to Administration as proposals on <referential>their</referential> potential usage.	NOCUOUS
+24	library#23	Produces profiles of those standards that are sent to Administration as proposals on <referential>their</referential> potential usage.	NOCUOUS
+25	library#24	The NLM will test preservation actions in order to determine <referential>their</referential> effectiveness across a range of digital objects.	NOCUOUS
+26	library#25	The NLM System Administration/Programming Access, ultimate rights to the system, required for <referential>its</referential> management, development, and for assigning appropriate rights to users.	NOCUOUS
+27	weather#01	The Clarus system shall process data as <referential>they</referential> are received.	INNOCUOUS
+28	weather#02	The Clarus system shall be able to base <referential>its</referential> quality control process on values from multiple observations.	INNOCUOUS
+29	weather#03	The Clarus system shall be able to communicate with RWIS databases through <referential>their</referential> native interfaces.	INNOCUOUS
+30	weather#04	The Clarus system shall be able to collect data from sources within 5 minutes of <referential>them</referential> becoming available.	NOCUOUS
+31	weather#05	The CAS shall be configurable to allow new observation types to be implemented as <referential>they</referential> become available.	INNOCUOUS
+32	weather#06	The CS shall collect environmental data based on <referential>its</referential> configured schedule.	NOCUOUS
+33	weather#07	The CS shall be able to dynamically adjust <referential>its</referential> retrieval schedules when environmental data is expected to be ready but is temporarily delayed.	INNOCUOUS
+34	weather#08	The CS shall process environmental data as <referential>they</referential> are received.	INNOCUOUS
+35	weather#09	The Clarus system shall be able to communicate with environmental sensor stations through <referential>its</referential> collector using the NTCIP ESS 1204.	NOCUOUS
+36	weather#10	The CS shall be able to accept data from an RWIS database in <referential>its</referential> native output format.	NOCUOUS
+37	weather#11	The Clarus system shall be able to communicate with an individual ESS through <referential>its</referential> native interface.	NOCUOUS
+38	weather#12	The DOG shall be able to monitor new environmental data services as <referential>they</referential> are added.	INNOCUOUS
+39	weather#13	The DOG shall be able to record <referential>its</referential> activities.	INNOCUOUS
+40	weather#14	The QEDC shall maintain observations and <referential>their</referential> associated quality flags for seven days.	INNOCUOUS
+41	weather#15	The QEDC shall support queries for <referential>its</referential> observations.	INNOCUOUS
+42	weather#16	The QEDS shall log <referential>their</referential> activities.	NOCUOUS
+43	weather#17	The QChS shall be able to base <referential>its</referential> quality checking process on values distributed in time.	INNOCUOUS
+44	weather#18	The contributors shall define the units of measurements of <referential>their</referential> shared data and information.	INNOCUOUS
+45	weather#19	The Clarus program shall determine how <referential>it</referential> will provide data and information to contributors.	INNOCUOUS
+46	weather#20	"""The Clarus program shall inform contributors of the acceptance and use"""" of <referential>their</referential> data and information."""""""	INNOCUOUS
+47	railway#01	The logon screen shall activate command control for the user if the user requests <referential>it</referential> and has authorization.	INNOCUOUS
+48	railway#02	When a device status has been overridden, on the screen <referential>it</referential> shall appear with different color from the normal and alarm status colors.	INNOCUOUS
+49	railway#03	<referential>It</referential> shall display and allow modification of all database tables with the exception of log tables.	NOCUOUS
+50	railway#04	The user should not be able to update log entries other than for <referential>their</referential> own login, for the current day and current shift.	NOCUOUS
+51	railway#05	Any change in device state shall be reported on the screen not later than 2 seconds from the time <referential>it</referential> occurs.	INNOCUOUS
+52	railway#06-1	When each workstation and control unit (workstation or intelligent controller at the FCU or DCU) comes online, the system shall identify <referential>it</referential> and all its associated device sensors.	NOCUOUS
+53	railway#06-2	When each workstation and control unit (workstation or intelligent controller at the FCU or DCU) comes online, the system shall identify it and all <referential>its</referential> associated device sensors.	NOCUOUS
+54	railway#07	The RLCS software shall initialize each control unit and device sensor as <referential>it</referential> is identified.	NOCUOUS
+55	railway#08	The devices can be manually controlled/operated from <referential>their</referential> cabinets (e.g.: Gates).	INNOCUOUS
+56	railway#09	The normal operating mode is Monday through Friday, between 5:00am and 8:00pm, but the system must be functional in order to stay in <referential>its</referential> closed state after hours.	INNOCUOUS
+57	railway#10	The ETCS shall provide the driver with information to allow <referential>him</referential> to drive the train safely.	INNOCUOUS
+58	railway#11-1	If the supervision is performed by a RBC <referential>it</referential> shall be possible to prevent movements of a traction unit in its area if not authorised by the RBC.	NOCUOUS
+59	railway#11-2	If the supervision is performed by a RBC it shall be possible to prevent movements of a traction unit in <referential>its</referential> area if not authorised by the RBC.	NOCUOUS
+60	railway#12	<referential>It</referential> shall be possible to implement one or more of the ETCS application levels on a line.	INNOCUOUS
+61	railway#13	The ETCS shall be compatible with existing national systems listed in the CCS TSI such that <referential>it</referential> does not interfere with the national systems and is not interfered with by the national systems.	INNOCUOUS
+62	railway#14	If an ETCS equipped train passes a level transition to a line fitted with more than one level, the onboard shall switch to the highest level, according to the priority given by trackside, for which <referential>it</referential> is equipped.	INNOCUOUS
+63	railway#15	On request of the RBC, the driver shall have the possibility to confirm that the track ahead of <referential>him</referential> until the end of the on sight section is clear .	INNOCUOUS
+64	railway#16	The braking curves shall ensure that the train complies with <referential>its</referential> speed requirements.	INNOCUOUS
+65	railway#17	If the release speed is calculated on board <referential>it</referential> shall ensure that the train will stop before reaching the danger point .	NOCUOUS
+66	railway#18	A train shall be supervised to <referential>its</referential> static and dynamic train speed profiles.	INNOCUOUS
+67	railway#19	Within the braking curve area, a warning shall be given to the driver to enable <referential>him</referential> to react and avoid intervention from ETCS equipment at least 5 sec. before the intervention.	INNOCUOUS
+68	railway#20	The ETCS trainborne equipment shall transmit <referential>its</referential> own train identification to the RBC.	INNOCUOUS
+69	railway#21	If a train cannot stop at the proposed new target location <referential>it</referential> shall reject the request and keep the old target location.	NOCUOUS
+70	railway#22	The train may proceed unrestricted to the end of <referential>its</referential> movement authority.	INNOCUOUS
+71	railway#23	<referential>It</referential> is acceptable that only one mobile user involved in the group call may talk at any time.	INNOCUOUS
+72	railway#24	If the text message facility is implemented, <referential>it</referential> shall not interfere with the ability of users to make or receive high priority voice or data calls.	INNOCUOUS
+73	railway#25	Where fax functionality is provided, <referential>it</referential> shall be possible to interrupt the fax to make or receive a high priority voice or data call.	NOCUOUS
+74	railway#26	The network shall provide the ability to inform a user, who is involved in an existing call, of attempts by other users to contact <referential>them</referential>.	NOCUOUS
+75	railway#27	Where network services are chargeable, <referential>it</referential> should be possible for the network to provide information about call rates and on-going call charges.	INNOCUOUS
+76	railway#28	Picking up the handset shall transfer the communication to the handset and reduce the loudspeaker volume to <referential>its</referential> minimum level.	NOCUOUS
+77	railway#29	An indication shall be provided to the driver as a reminder of the need to use the Push-To-Talk button on the handset if <referential>he</referential> wants to talk.	INNOCUOUS
+78	railway#30	<referential>It</referential> shall be possible for a driver to initiate Railway emergency calls (see section 13).	INNOCUOUS
+79	railway#31	If the train moves out of the call area whilst the call is in progress, <referential>it</referential> will leave the call and an audible and visual indication of the loss of call shall be provided to the driver.	NOCUOUS
+80	railway#32	Once the driver has accepted the standard point-to-point call, <referential>it</referential> shall be connected appropriately, eg if the driver has accepted the call by lifting the handset, then the call shall be routed to the handset.	INNOCUOUS
+81	railway#33	In this case, the security device alerts the driver if the link has failed or if <referential>it</referential> is cancelled.	NOCUOUS
+82	railway#34-1	<referential>It</referential> should be possible for the Cab radio to be used without the network service (if it should fail or if there is no authorised network coverage), such that local open channel communications are still possible.	NOCUOUS
+83	railway#34-2	It should be possible for the Cab radio to be used without the network service (if <referential>it</referential> should fail or if there is no authorised network coverage), such that local open channel communications are still possible.	NOCUOUS
+84	railway#35	Where the Cab radio is required by a national railway to support a handheld portable, the Cab radio shall: - provide a clear indication as to whether the handheld portable is activated or not; - provide an interface to allow the handheld portable to be recharged when not in use; - forward calls automatically to the handheld portable when the handheld portable is activated; - cancel any call forwarding to the handheld portable when <referential>it</referential> is deactivated; - allow the driver to override the call forwarding to the handheld portable.	INNOCUOUS
+85	railway#36	When the MMI is switched on, the configuration shall be determined by the time elapsed since the MMI was last switched off: - less than t minutes – the MMI shall power up with the same configuration as when <referential>it</referential> was last powered down; - greater than t minutes – the MMI shall power up with default settings.	INNOCUOUS
+86	railway#37	If directed network selection is implemented, input from the external device(s) shall initiate the network change regardless of the identity of the current network and how <referential>it</referential> was selected.	NOCUOUS
+87	railway#38	Non leading drivers shall be able to indicate to the system <referential>their</referential> location in the train during the registration procedure (2nd driver, 3rd driver etc).	INNOCUOUS
+88	railway#39	Each type of equipment has slightly different requirements placed upon <referential>it</referential> in terms of EMC and climate.	INNOCUOUS
+89	railway#40	The design of the equipment shall make <referential>it</referential> possible to install <referential>it</referential> within a cab complying with the requirements of UIC fiche 651 concerning the layout of cab equipment5.	NOCUOUS
+90	railway#41	If the call is a broadcast call, the user shall be informed that <referential>he</referential> cannot speak as part of the broadcast call.	INNOCUOUS
+91	railway#42	Where a change of functional number is required, <referential>it</referential> shall be possible for the user to initiate the change.	NOCUOUS
+92	railway#43-1	<referential>It</referential> shall be possible for the user to find and display stored numbers and their information.	NOCUOUS
+93	railway#43-2	It shall be possible for the user to find and display stored numbers and <referential>their</referential> information.	NOCUOUS
+94	railway#44	The Operational radio is specified to allow <referential>its</referential> use in the operating environment experienced on the operational railway (eg shunting and maintenance).	INNOCUOUS
+95	railway#45	Controls shall be designed such that <referential>they</referential> are suitable for use by people wearing gloves.	INNOCUOUS
+96	railway#46-1	<referential>It</referential> should be possible for the system to prevent certain types of users from registering functional numbers that they are not authorised to use, for example: - train number; - driver of train; - shunting team leader.	NOCUOUS
+97	railway#46-2	It should be possible for the system to prevent certain types of users from registering functional numbers that <referential>they</referential> are not authorised to use, for example: - train number; - driver of train; - shunting team leader.	NOCUOUS
+98	railway#47	As a minimum, the location information used by the EIRENE system shall be derived from that available from the network <referential>itself</referential> (eg current cell or base station serving the mobile).	NOCUOUS
+99	railway#48	After the 30 second period, if the connection was unsuccessful, the system shall provide another audible and visual indication that <referential>it</referential> was unable to connect the call.	INNOCUOUS
+100	railway#49	For post-incident analysis, <referential>it</referential> is important that the origination and reception of Railway emergency calls by mobiles is confirmed by a message sent to a ground-based central location (and also recorded in the on-train recording device).	NOCUOUS
+101	railway#50	Throughout the duration of the shunting group call, <referential>it</referential> shall be possible for any member of the shunting group to speak to all other members of the group, using the PTT function (as described in sections 5.2.2.53, 6.2.2.12 and 7.2.2.20), except during transmission of the link assurance signal.	NOCUOUS
+102	railway#51	The shunting leader can then choose the moment when <referential>he</referential> takes or rejects the call.	INNOCUOUS
+103	railway#52	In this case, the safety device will alert the driver only if the link assurance signal has failed or if <referential>it</referential> is cancelled.	INNOCUOUS
+104	railway#53	The 300ms represents <referential>our</referential> current best estimate of the QoS figure, although this will need to be confirmed through user trials.	NOCUOUS
+105	railway#54	Each authority can decide whether <referential>it</referential> wishes to use synchronised BTSs.	INNOCUOUS
+106	railway#55	The network shall terminate the ongoing VGCS/VBS call if <referential>it</referential> receives the 3-digit sequence “***” transmitted via DTMF signals.	NOCUOUS
+107	railway#56	The network shall send the SET-PARAMETER message with the attribute “D-ATT = T”1 [EN 301 515, Index [6]] to the mobile station of the talking subscriber if <referential>it</referential> receives the 3- digit sequence “###” transmitted via DTMF or the group call SETUP message2 from a controller terminal.	NOCUOUS
+108	railway#57-1	When the network has detected the 3-digit DTMF sequence “###” transmitted via DTMF from a controller terminal and if the controller was not previously talking <referential>it</referential> should indicate its recognition by playing a single DTMF grant tone “#” of duration of 100ms  5ms to be sent to that controller terminal only.	NOCUOUS
+109	railway#57-2	When the network has detected the 3-digit DTMF sequence “###” transmitted via DTMF from a controller terminal and if the controller was not previously talking it should indicate <referential>its</referential> recognition by playing a single DTMF grant tone “#” of duration of 100ms  5ms to be sent to that controller terminal only.	NOCUOUS
+110	railway#58	The network shall send the SET-PARAMETER message with the attribute “D-ATT = F”3 [EN 301 515, Index [6]] to the mobile of the talking subscriber only if <referential>it</referential> has received the 3-digit sequence “#**” transmitted via DTMF from all the talking controllers4.	NOCUOUS
+111	railway#59	Many of the railway specific standards referenced are Pre-standards (eg [prEN 50155, ENV 50121, prEN 50125]) and should be re-examined for <referential>their</referential> applicability to the EIRENE system if any modifications are made to these standards in the future.	INNOCUOUS
+112	railway#60	Each of the other cabs on the train will be contacted using <referential>its</referential> functional number (registered by the other drivers prior to the establishment of the call).	NOCUOUS
+113	railway#61	Upon registration, the mobile shall be accessible by calling the MSISDN or the Engine or Coach number with which <referential>it</referential> is associated.	INNOCUOUS
+114	railway#62	The Cab radio system shall provide a means for the driver to terminate established calls which <referential>he</referential> is authorised to terminate.	INNOCUOUS
+115	home#01	The DigitalHome programmable Appliance Manager shall provide for management of a home’s small appliances, including lighting units, by allowing a user to turn <referential>them</referential> on or off as desired.	NOCUOUS
+116	home#02	Although the product produced under this document will be a “prototype” version, all modules and components of this prototype version shall be designed and implemented in such a manner that <referential>it</referential> may be incorporated in a fully specified commercial version of the DigitalHome System.	NOCUOUS
+117	home#03	The DigitalHome System shall provide users with online documentation about the DigitalHome system installed in <referential>their</referential> home.	INNOCUOUS
+118	space#01	The FCP shall, if the NEFU ICP fails to send <referential>its</referential> ICP Ready signal, mask out that ICP, but continue to use the NE.16.	INNOCUOUS
+119	space#02	Each rate group has some number of tasks associated with <referential>it</referential>, and <referential>it</referential> also has a rate for those tasks.	INNOCUOUS
+120	space#03	The enabled tasks are then unblocked at the rate given in <referential>its</referential> associated rate group.	NOCUOUS
+121	space#04-1	An API call is available for the task to call to block <referential>itself</referential> when it is finished with its cyclic processing.	NOCUOUS
+122	space#04-2	An API call is available for the task to call to block itself when <referential>it</referential> is finished with its cyclic processing.	NOCUOUS
+123	space#04-3	An API call is available for the task to call to block itself when it is finished with <referential>its</referential> cyclic processing.	NOCUOUS
+124	space#05	There is up to a full major frame from notification of an impending mode change to acting on <referential>it</referential> in minor frame 0 of the next major frame plus the time <referential>it</referential> takes during the next minor frame 0 to switch tasking.	NOCUOUS
+125	space#06	The scheduler shall execute cyclic tasks, providing an API call to allow the application to block until <referential>its</referential> next iteration.	NOCUOUS
+126	space#07	The scheduler shall give tasks priority values according to <referential>their</referential> rate - the higher the rate, the higher the priority.	NOCUOUS
+127	space#08	The scheduler shall provide a mechanism to inform a task when <referential>it</referential> did not complete during the previous frame and restart <referential>it</referential> at the beginning of the task.	NOCUOUS
+128	space#09	All tasks in rate groups and <referential>their</referential> corresponding schedules for all vehicle modes will be setup at system initialization.	NOCUOUS
+129	space#10	Tasks in a rate group must suspend on a scheduler API call at the top of <referential>their</referential> execution loop.	INNOCUOUS
+130	space#11	For hardware exceptions and reserved exceptions, the FTSS shall make the error type and <referential>its</referential> context data available to the application, then return from the exception handler to the task that was running when the exception occurred.	NOCUOUS
+131	space#12	Messages are addressed with a global unique communication identifier that routes <referential>them</referential> to the appropriate virtual group (VG) and socket.	INNOCUOUS
+132	space#13	This restriction does NOT apply to the ICPs since <referential>they</referential> are running as simplex VGs.	INNOCUOUS
+133	space#14	The FTSS shall mask out a babbling NE or ICP within 40 milliseconds after <referential>it</referential> is detected.	NOCUOUS
+134	space#15	Synchronous message passing sockets shall queue outgoing messages until <referential>they</referential> are transmitted at frame boundaries.	NOCUOUS
+135	space#16	"""Pipes may be opened by multiple receiving tasks if <referential>they</referential> are created with the broadcast"""" capability; otherwise <referential>they</referential> may only be opened by one receiving task."""""""	NOCUOUS
+136	space#17	"""Communication services shall provide the capability to create pipe""""s which """"broadcast"""" <referential>their</referential> messages to all virtual groups."""""""	NOCUOUS
+137	space#18	If the broadcast option is used, each virtual group should open the pipe and read from <referential>it</referential> to avoid flow control problems.	NOCUOUS
+138	space#19	The application software shall have the capability to reset a permanently failed channel to <referential>its</referential> initial recovery state.	NOCUOUS
+139	space#20	Redundancy Management picks up where <referential>it</referential> left off in these attempts.	INNOCUOUS
+140	library01	"All material that is stored in the repository will enter <referential>it</referential> via the Ingest function."	NOCUOUS
+141	library02	"All material that is stored in the repository will enter <referential>the designated processing module</referential> via the Ingest function."	INNOCUOUS
+142	library03	"After the review, <referential>it</referential> is sent to the archive, leaving readers confused about the destination."	NOCUOUS
+143	library04	"After the review, <referential>the manuscript</referential> is sent to the digital archive."	INNOCUOUS
+144	library05	"When a book is misplaced, <referential>this</referential> often leads to delays in finding it."	NOCUOUS
+145	library06	"Following the update, <referential>the new processing pipeline</referential> ensured that materials were efficiently ingested."	INNOCUOUS
+146	railway01	"The train's departure was delayed because <referential>it</referential> encountered unexpected issues."	NOCUOUS
+147	railway02	"The train's departure was delayed because <referential>the signaling system</referential> experienced a malfunction."	INNOCUOUS
+148	railway03	"When the conductor announced the delay, <referential>they</referential> were not sure what to expect."	NOCUOUS
+149	railway04	"When the conductor announced the delay, <referential>the passengers</referential> were informed of the revised schedule."	INNOCUOUS
+150	railway05	"Due to multiple breakdowns, <referential>it</referential> remains unclear which part caused the failure."	NOCUOUS
+151	railway06	"At the terminal, <referential>the updated timetable</referential> clarified the train's schedule, removing any confusion."	INNOCUOUS
+152	space01	"The spacecraft lost contact when <referential>it</referential> entered the asteroid belt."	NOCUOUS
+153	space02	"The spacecraft lost contact when <referential>the communication module</referential> failed upon entering the asteroid belt."	INNOCUOUS
+154	space03	"After launch, <referential>they</referential> encountered unexpected gravitational pulls that altered their course."	NOCUOUS
+155	space04	"After launch, <referential>the satellites</referential> encountered unexpected gravitational pulls that altered their course."	INNOCUOUS
+156	space05	"When the rover discovered a crater, <referential>this</referential> raised more questions than answers."	NOCUOUS
+157	space06	"Once in orbit, <referential>the command module</referential> communicated its status, eliminating any doubts."	INNOCUOUS
+158	weather01	"The forecast predicted rain, so <referential>it</referential> was hard to plan the outdoor event."	NOCUOUS
+159	weather02	"The forecast predicted rain, so <referential>the meteorological report</referential> made it hard to plan the outdoor event."	INNOCUOUS
+160	weather03	"During the storm, <referential>they</referential> warned of potential flooding."	NOCUOUS
+161	weather04	"During the storm, <referential>the authorities</referential> warned of potential flooding."	INNOCUOUS
+162	weather05	"After the seminar, <referential>this</referential> left the audience debating its implications."	NOCUOUS
+163	weather06	"Before the storm, <referential>the weather alert system</referential> provided clear instructions to residents."	INNOCUOUS
+164	healthcare01	"After the surgery, <referential>it</referential> was noted that recovery would be slow."	NOCUOUS
+165	healthcare02	"After the surgery, <referential>the patient's condition</referential> indicated that recovery would be slow."	INNOCUOUS
+166	healthcare03	"The doctor said that if <referential>they</referential> didn't follow the regimen, complications could arise."	NOCUOUS
+167	healthcare04	"The doctor said that if <referential>the patients</referential> didn't follow the regimen, complications could arise."	INNOCUOUS
+168	healthcare05	"When discussing the test results, <referential>this</referential> confused many in the room."	NOCUOUS
+169	healthcare06	"To ensure proper care, <referential>the post-operative recovery plan</referential> was detailed and unambiguous."	INNOCUOUS
+170	finance01	"The quarterly report showed a spike in revenue, but <referential>it</referential> was hard to attribute to any single factor."	NOCUOUS
+171	finance02	"The quarterly report showed a spike in revenue, but <referential>the new marketing strategy</referential> contributed significantly."	INNOCUOUS
+172	finance03	"Investors were puzzled when <referential>they</referential> could not pinpoint the source of profit."	NOCUOUS
+173	finance04	"Investors were reassured when <referential>the financial forecast</referential> clearly outlined the profit sources."	INNOCUOUS
+174	finance05	"Following the merger, <referential>this</referential> led to market speculation."	NOCUOUS
+175	finance06	"After the merger, <referential>the financial report</referential> clearly outlined the contributing factors."	INNOCUOUS
+176	education01	"During the lecture, <referential>it</referential> was unclear what the professor referred to."	NOCUOUS
+177	education02	"During the lecture, <referential>the subject matter</referential> was clearly explained by the professor."	INNOCUOUS
+178	education03	"After the exam, <referential>they</referential> debated over the grading criteria."	NOCUOUS
+179	education04	"After the exam, <referential>the students</referential> debated over the grading criteria."	INNOCUOUS
+180	education05	"When reviewing the syllabus, <referential>this</referential> confused several attendees."	NOCUOUS
+181	education06	"In class, <referential>the revised curriculum</referential> left no room for misinterpretation."	INNOCUOUS
+182	entertainment01	"The film received mixed reviews because <referential>it</referential> seemed too ambiguous in its plot."	NOCUOUS
+183	entertainment02	"The film received mixed reviews because <referential>the storyline</referential> was intricately detailed, leaving little room for ambiguity."	INNOCUOUS
+184	entertainment03	"After the concert, <referential>they</referential> applauded, yet some fans felt the performance was lackluster."	NOCUOUS
+185	entertainment04	"After the concert, <referential>the audience</referential> applauded enthusiastically, reflecting the quality of the performance."	INNOCUOUS
+186	entertainment05	"At the movie premiere, <referential>this</referential> left critics wondering about its meaning."	NOCUOUS
+187	entertainment06	"In the award ceremony, <referential>the host's introduction</referential> was delivered with clarity and precision."	INNOCUOUS
+188	socialmedia01	"The tweet went viral, but <referential>it</referential> sparked debates about its intent."	NOCUOUS
+189	socialmedia02	"The tweet went viral, but <referential>the controversial remark</referential> sparked debates about its intent."	INNOCUOUS
+190	socialmedia03	"In the thread, <referential>they</referential> discussed topics that were hard to follow."	NOCUOUS
+191	socialmedia04	"In the thread, <referential>the users</referential> discussed topics with clear context and relevance."	INNOCUOUS
+192	socialmedia05	"In a recent post, <referential>this</referential> was interpreted in various ways."	NOCUOUS
+193	socialmedia06	"On the forum, <referential>the pinned announcement</referential> provided all the necessary details."	INNOCUOUS
+194	news01	"The breaking story mentioned that <referential>it</referential> happened overnight, leaving many in suspense."	NOCUOUS
+195	news02	"The breaking story detailed that <referential>the incident</referential> occurred overnight, clarifying the sequence of events."	INNOCUOUS
+196	news03	"Reporters noted that <referential>they</referential> were investigating multiple leads simultaneously."	NOCUOUS
+197	news04	"Reporters noted that <referential>the authorities</referential> were investigating multiple leads simultaneously."	INNOCUOUS
+198	news05	"Following the press conference, <referential>this</referential> sparked widespread speculation."	NOCUOUS
+199	news06	"Following the investigation, <referential>the official statement</referential> dispelled previous uncertainties."	INNOCUOUS
+200	fiction01	"In the novel, the hero vanished suddenly, leaving behind <referential>it</referential> as a mystery."	NOCUOUS
+201	fiction02	"In the novel, the hero vanished suddenly, leaving behind <referential>the cherished locket</referential> as a mystery."	INNOCUOUS
+202	fiction03	"During the tale, <referential>they</referential> wandered through enchanted forests, uncertain of their destination."	NOCUOUS
+203	fiction04	"During the tale, <referential>the companions</referential> wandered through enchanted forests, certain of their destination."	INNOCUOUS
+204	fiction05	"At the climax, <referential>this</referential> left readers pondering its deeper meaning."	NOCUOUS
+205	fiction06	"In the sequel, <referential>the narrative twist</referential> resolved earlier ambiguities in the storyline."	INNOCUOUS
