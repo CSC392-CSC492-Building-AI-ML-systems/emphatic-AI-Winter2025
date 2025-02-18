@@ -1,5 +1,4 @@
 id,sentence_id,sentence,label
-,ID,Sentence,Detected as
 1.0,diagnostic#01,"The absolute time of input will be associated with each sensed data item for its complete lifecycle, including permanent storage.",NOCUOUS
 2.0,diagnostic#02,Each sensed data item will be qualified as to its certitude during the acquisition process.,INNOCUOUS
 3.0,diagnostic#03,Sensed data input to the tool shall be validated with respect to its expected range of values.,INNOCUOUS

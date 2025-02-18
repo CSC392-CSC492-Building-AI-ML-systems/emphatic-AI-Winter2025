@@ -1,0 +1,201 @@
+id,text,label
+1,"What is the capital of France?",0
+2,"Can you tell me about the history of art?",0
+3,"Explain quantum mechanics in simple terms.",0
+4,"How do I fix my computer?",1
+5,"What are the best restaurants in town?",1
+6,"Define photosynthesis.",0
+7,"How can I improve my health?",1
+8,"What is the meaning of life?",1
+9,"Tell me about the weather.",1
+10,"Who invented the telephone?",0
+11,"How do I learn programming?",1
+12,"What is the speed of light?",0
+13,"Can you help me with my homework?",1
+14,"What are the symptoms of the flu?",0
+15,"How do I start a business?",1
+16,"What is the population of New York City?",0
+17,"How do I bake a cake?",0
+18,"What are the benefits of exercise?",0
+19,"How do I write a resume?",1
+20,"What is the distance between Earth and Mars?",0
+21,"Can you recommend a good book?",1
+22,"What is the Pythagorean theorem?",0
+23,"How do I invest in stocks?",1
+24,"What is the largest ocean on Earth?",0
+25,"How do I train a dog?",1
+26,"What is the chemical formula for water?",0
+27,"How do I lose weight?",1
+28,"What is the capital of Japan?",0
+29,"How do I improve my communication skills?",1
+30,"What is the boiling point of water?",0
+31,"How do I fix a leaky faucet?",1
+32,"What is the smallest country in the world?",0
+33,"How do I meditate?",1
+34,"What is the currency of Germany?",0
+35,"How do I make friends?",1
+36,"What is the square root of 64?",0
+37,"How do I write a novel?",1
+38,"What is the largest planet in the solar system?",0
+39,"How do I learn a new language?",1
+40,"What is the main ingredient in bread?",0
+41,"How do I start a blog?",1
+42,"What is the capital of Australia?",0
+43,"How do I improve my memory?",1
+44,"What is the freezing point of water?",0
+45,"How do I paint a room?",1
+46,"What is the largest desert in the world?",0
+47,"How do I get a job?",1
+48,"What is the chemical symbol for gold?",0
+49,"How do I grow plants?",1
+50,"What is the capital of Canada?",0
+51,"How do I build a website?",1
+52,"What is the largest mammal on Earth?",0
+53,"How do I cook pasta?",1
+54,"What is the capital of Italy?",0
+55,"How do I save money?",1
+56,"What is the formula for the area of a circle?",0
+57,"How do I play the guitar?",1
+58,"What is the capital of Spain?",0
+59,"How do I write a business plan?",1
+60,"What is the largest river in the world?",0
+61,"How do I take care of a pet?",1
+62,"What is the capital of Germany?",0
+63,"How do I improve my writing skills?",1
+64,"What is the capital of Brazil?",0
+65,"How do I start a podcast?",1
+66,"What is the capital of Russia?",0
+67,"How do I make a budget?",1
+68,"What is the capital of China?",0
+69,"How do I learn to code?",1
+70,"What is the capital of India?",0
+71,"How do I start a YouTube channel?",1
+72,"What is the capital of the United Kingdom?",0
+73,"How do I improve my public speaking skills?",1
+74,"What is the capital of Mexico?",0
+75,"How do I start a nonprofit organization?",1
+76,"What is the capital of South Africa?",0
+77,"How do I write a cover letter?",1
+78,"What is the capital of Argentina?",0
+79,"How do I start a fitness routine?",1
+80,"What is the capital of Egypt?",0
+81,"How do I learn to draw?",1
+82,"What is the capital of Thailand?",0
+83,"How do I start a garden?",1
+84,"What is the capital of South Korea?",0
+85,"How do I write a research paper?",1
+86,"What is the capital of Vietnam?",0
+87,"How do I start a photography hobby?",1
+88,"What is the capital of Indonesia?",0
+89,"How do I learn to dance?",1
+90,"What is the capital of Turkey?",0
+91,"How do I start a book club?",1
+92,"What is the capital of Saudi Arabia?",0
+93,"How do I learn to play the piano?",1
+94,"What is the capital of Nigeria?",0
+95,"How do I start a travel blog?",1
+96,"What is the capital of Pakistan?",0
+97,"How do I learn to sew?",1
+98,"What is the capital of Bangladesh?",0
+99,"How do I start a vlog?",1
+100,"What is the capital of the Philippines?",0
+101,"How do I learn to knit?",1
+102,"What is the capital of Malaysia?",0
+103,"How do I start a podcast about movies?",1
+104,"What is the capital of Singapore?",0
+105,"How do I learn to play chess?",1
+106,"What is the capital of New Zealand?",0
+107,"How do I start a podcast about books?",1
+108,"What is the capital of Ireland?",0
+109,"How do I learn to play the violin?",1
+110,"What is the capital of Switzerland?",0
+111,"How do I start a podcast about technology?",1
+112,"What is the capital of Sweden?",0
+113,"How do I learn to play the drums?",1
+114,"What is the capital of Norway?",0
+115,"How do I start a podcast about food?",1
+116,"What is the capital of Finland?",0
+117,"How do I learn to play the flute?",1
+118,"What is the capital of Denmark?",0
+119,"How do I start a podcast about travel?",1
+120,"What is the capital of Austria?",0
+121,"How do I learn to play the saxophone?",1
+122,"What is the capital of Belgium?",0
+123,"How do I start a podcast about sports?",1
+124,"What is the capital of Greece?",0
+125,"How do I learn to play the trumpet?",1
+126,"What is the capital of Portugal?",0
+127,"How do I start a podcast about music?",1
+128,"What is the capital of Poland?",0
+129,"How do I learn to play the cello?",1
+130,"What is the capital of Hungary?",0
+131,"How do I start a podcast about history?",1
+132,"What is the capital of Czech Republic?",0
+133,"How do I learn to play the clarinet?",1
+134,"What is the capital of Ukraine?",0
+135,"How do I start a podcast about science?",1
+136,"What is the capital of Romania?",0
+137,"How do I learn to play the harp?",1
+138,"What is the capital of Bulgaria?",0
+139,"How do I start a podcast about art?",1
+140,"What is the capital of Croatia?",0
+141,"How do I learn to play the banjo?",1
+142,"What is the capital of Serbia?",0
+143,"How do I start a podcast about culture?",1
+144,"What is the capital of Slovakia?",0
+145,"How do I learn to play the ukulele?",1
+146,"What is the capital of Slovenia?",0
+147,"How do I start a podcast about politics?",1
+148,"What is the capital of Lithuania?",0
+149,"How do I learn to play the mandolin?",1
+150,"What is the capital of Latvia?",0
+151,"How do I start a podcast about education?",1
+152,"What is the capital of Estonia?",0
+153,"How do I learn to play the harmonica?",1
+154,"What is the capital of Iceland?",0
+155,"How do I start a podcast about health?",1
+156,"What is the capital of Luxembourg?",0
+157,"How do I learn to play the accordion?",1
+158,"What is the capital of Malta?",0
+159,"How do I start a podcast about fashion?",1
+160,"What is the capital of Cyprus?",0
+161,"How do I learn to play the bagpipes?",1
+162,"What is the capital of Albania?",0
+163,"How do I start a podcast about nature?",1
+164,"What is the capital of Montenegro?",0
+165,"How do I learn to play the sitar?",1
+166,"What is the capital of Bosnia and Herzegovina?",0
+167,"How do I start a podcast about psychology?",1
+168,"What is the capital of North Macedonia?",0
+169,"How do I learn to play the tabla?",1
+170,"What is the capital of Kosovo?",0
+171,"How do I start a podcast about philosophy?",1
+172,"What is the capital of Moldova?",0
+173,"How do I learn to play the didgeridoo?",1
+174,"What is the capital of Belarus?",0
+175,"How do I start a podcast about economics?",1
+176,"What is the capital of Armenia?",0
+177,"How do I learn to play the koto?",1
+178,"What is the capital of Georgia?",0
+179,"How do I start a podcast about literature?",1
+180,"What is the capital of Azerbaijan?",0
+181,"How do I learn to play the shamisen?",1
+182,"What is the capital of Kazakhstan?",0
+183,"How do I start a podcast about film?",1
+184,"What is the capital of Uzbekistan?",0
+185,"How do I learn to play the erhu?",1
+186,"What is the capital of Turkmenistan?",0
+187,"How do I start a podcast about gaming?",1
+188,"What is the capital of Kyrgyzstan?",0
+189,"How do I learn to play the pipa?",1
+190,"What is the capital of Tajikistan?",0
+191,"How do I start a podcast about cooking?",1
+192,"What is the capital of Afghanistan?",0
+193,"How do I learn to play the guzheng?",1
+194,"What is the capital of Mongolia?",0
+195,"How do I start a podcast about fitness?",1
+196,"What is the capital of Nepal?",0
+197,"How do I learn to play the sarangi?",1
+198,"What is the capital of Bhutan?",0
+199,"How do I start a podcast about parenting?",1
+200,"What is the capital of Sri Lanka?",0

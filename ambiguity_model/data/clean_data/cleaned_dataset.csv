@@ -1,5 +1,4 @@
 id,sentence_id,sentence,label
-,ID,Sentence,Detected as
 1.0,library#01,All material that is stored in the repository will enter it via the Ingest function.,NOCUOUS
 2.0,library#02-1,The Library may want to accept important digital materials in non-standard formats in case we are able to migrate them to a more usable format in the future.,NOCUOUS
 3.0,library#02-2,The Library may want to accept important digital materials in non-standard formats in case we are able to migrate them to a more usable format in the future.,INNOCUOUS
@@ -139,3 +138,4 @@ id,sentence_id,sentence,label
 137.0,space#18,"If the broadcast option is used, each virtual group should open the pipe and read from it to avoid flow control problems.",NOCUOUS
 138.0,space#19,The application software shall have the capability to reset a permanently failed channel to its initial recovery state.,NOCUOUS
 139.0,space#20,Redundancy Management picks up where it left off in these attempts.,INNOCUOUS
+
