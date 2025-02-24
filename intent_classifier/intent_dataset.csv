@@ -1,0 +1,972 @@
+User Query,Intent Label
+Can you explain how photosynthesis works?,Curious Intent
+What was the cause for world war II?,Curious Intent
+Who can bring flying cars into the world?,Curious Intent
+What is the capital of France?,Precise/Urgent Intent
+Who was the first president of the United States?,Precise/Urgent Intent
+How long should I wait before sending a follow up email?,Precise/Urgent Intent
+Where can I find the user manual for this product?,Navigational Intent
+Where should I look to find research articles on breast cancer?,Navigational Intent
+What should I look for to solve the A Link to the Past puzzle in Zelda?,Navigational Intent
+What are the differences between iPhone and Android phones?,Comparative Intent
+Compare and contrast computer science and computer engineering?,Comparative Intent
+What's the difference between fertilizer and pesticide?,Comparative Intent
+My phone won't turn on. Can you help me fix it?,Support/Help Intent
+Why doesn't my code work?,Support/Help Intent
+What can I do to deal with a punctured tire?,Support/Help Intent
+What do people think about the new Tesla model?,Feedback/Opinion Intent
+How do you feel about the Grammy results?,Feedback/Opinion Intent
+Should America move over to a metric system?,Feedback/Opinion Intent
+Is it true that the meeting is at 3 PM?,Confirmation Intent
+Is 42 the meaning of life?,Confirmation Intent
+My typing speed is 200 wpm right?,Confirmation Intent
+Correct me if I am wrong but,Confirmation Intent
+The date is,Confirmation Intent
+The time is,Confirmation Intent
+The location is,Confirmation Intent
+Am I correct in thinking that,Confirmation Intent
+Can you verify if,Confirmation Intent
+Is it accurate to say that,Confirmation Intent
+Just to confirm,Confirmation Intent
+Can you confirm that,Confirmation Intent
+Am I right in assuming that,Confirmation Intent
+Would you say that,Confirmation Intent
+Is this information correct?,Confirmation Intent
+Does that mean,Confirmation Intent
+Is it a fact that,Confirmation Intent
+Let me double-check,Confirmation Intent
+I just want to make sure that,Confirmation Intent
+So just to be clear,Confirmation Intent
+Can you clarify whether,Confirmation Intent
+Please confirm if,Confirmation Intent
+Am I mistaken in thinking that,Confirmation Intent
+I believe that,Confirmation Intent
+Is my understanding correct that,Confirmation Intent
+Are you sure that,Confirmation Intent
+Is this assumption correct?,Confirmation Intent
+Is it right to say that,Confirmation Intent
+Can you fact-check this for me?,Confirmation Intent
+Do I have the right information about,Confirmation Intent
+What are some interesting facts about space?,Curious Intent
+When will humans have flying cars?,Curious Intent
+What are some interesting facts about space?,Curious Intent
+I'm feeling really stressed about work. What should I do?,Emotional Support Intent
+I'm feeling burnt out. What should I do?,Emotional Support Intent
+I am going through a breakup - it's been really hard.,Emotional Support Intent
+What are the best restaurants near me?,Navigational Intent
+How can I get to South Africa from here?,Navigational Intent
+Where is the best tour guide in Ireland?,Navigational Intent
+How do I reset my password?,Support/Help Intent
+Where can I see my MAC address?,Support/Help Intent
+How can I remove water from my keyboard?,Support/Help Intent
+What are the benefits of meditation?,Curious Intent
+What age does the brain usually reach full maturity?,Curious Intent
+When do catholics believe Christ will be reborn?,Curious Intent
+Can you compare the features of the MacBook Pro and the Dell XPS?,Comparative Intent
+Charmander or Squirtle?,Comparative Intent
+Which has better education out of Switzerland Sweden Canada and Denmark?,Comparative Intent
+What’s the exact temperature today in Toronto?,Precise/Urgent Intent
+What is the NVDA stock price right now?,Precise/Urgent Intent
+When is the Nintendo Switch 2 release date?,Precise/Urgent Intent
+Can you recommend a good book to read?,Feedback/Opinion Intent
+When is a good time to start investing?,Feedback/Opinion Intent
+How do you feel about 9/11?,Feedback/Opinion Intent
+How do you perceive,Feedback/Opinion Intent
+What do you think about,Feedback/Opinion Intent
+When do you think I should,Feedback/Opinion Intent
+Do you think this is a good idea?,Feedback/Opinion Intent
+What’s your take on,Feedback/Opinion Intent
+How would you rate,Feedback/Opinion Intent
+What’s your opinion on,Feedback/Opinion Intent
+Would you recommend,Feedback/Opinion Intent
+Should I go with option A or B?,Feedback/Opinion Intent
+How do you view,Feedback/Opinion Intent
+Do you agree with,Feedback/Opinion Intent
+What’s your perspective on,Feedback/Opinion Intent
+Which one do you prefer,Feedback/Opinion Intent
+What would you do in my situation?,Feedback/Opinion Intent
+What are your thoughts on,Feedback/Opinion Intent
+If you were me what would you choose?,Feedback/Opinion Intent
+How do you interpret,Feedback/Opinion Intent
+Do you have any advice on,Feedback/Opinion Intent
+How do you compare X and Y?,Feedback/Opinion Intent
+What’s the best choice for,Feedback/Opinion Intent
+Can you share your insights on,Feedback/Opinion Intent
+Would you say this is a smart decision?,Feedback/Opinion Intent
+Is this a good approach?,Feedback/Opinion Intent
+What are the pros and cons of,Feedback/Opinion Intent
+Which do you think is better,Feedback/Opinion Intent
+What are your feelings about the new policy?,Feedback/Opinion Intent
+How do you find the service so far?,Feedback/Opinion Intent
+What's your impression of the candidate?,Feedback/Opinion Intent
+Do you believe this will work?,Feedback/Opinion Intent
+What's your assessment of the situation?,Feedback/Opinion Intent
+How do you see the future of this project?,Feedback/Opinion Intent
+What are your opinions on the current market trends?,Feedback/Opinion Intent
+Would you consider this a worthwhile investment?,Feedback/Opinion Intent
+What are your thoughts on the proposed changes?,Feedback/Opinion Intent
+Do you have any feedback on my performance?,Feedback/Opinion Intent
+How would you describe your experience with the product?,Feedback/Opinion Intent
+What's your take on the latest developments?,Feedback/Opinion Intent
+Do you think this is a fair compromise?,Feedback/Opinion Intent
+What's your understanding of the issue?,Feedback/Opinion Intent
+How do you feel about the direction we're heading in?,Feedback/Opinion Intent
+What are your views on the importance of education?,Feedback/Opinion Intent
+Would you say this is a sustainable solution?,Feedback/Opinion Intent
+What's your opinion on the effectiveness of the program?,Feedback/Opinion Intent
+Do you have any suggestions for improvement?,Feedback/Opinion Intent
+How would you evaluate the success of the campaign?,Feedback/Opinion Intent
+What's your perspective on the ethical implications?,Feedback/Opinion Intent
+Which option seems more viable to you?,Feedback/Opinion Intent
+What are your predictions for the upcoming election?,Feedback/Opinion Intent
+How do you perceive the impact of social media?,Feedback/Opinion Intent
+Do you agree with the findings of the study?,Feedback/Opinion Intent
+What's your take on the long-term consequences?,Feedback/Opinion Intent
+Would you recommend this book to a friend?,Feedback/Opinion Intent
+What are your thoughts on the role of technology in society?,Feedback/Opinion Intent
+If you could change one thing what would it be?,Feedback/Opinion Intent
+How do you interpret the meaning of this artwork?,Feedback/Opinion Intent
+Do you have any advice for someone starting out in this field?,Feedback/Opinion Intent
+How do you compare the benefits and risks?,Feedback/Opinion Intent
+What's the best approach to solving this problem?,Feedback/Opinion Intent
+Can you share your insights on the challenges involved?,Feedback/Opinion Intent
+Would you say this is a financially sound decision?,Feedback/Opinion Intent
+Is this a realistic expectation?,Feedback/Opinion Intent
+What are the advantages and disadvantages of each approach?,Feedback/Opinion Intent
+Which strategy do you think is most effective?,Feedback/Opinion Intent
+I’m unsure about this. What do you think?,Feedback/Opinion Intent
+Would you say this is worth it?,Feedback/Opinion Intent
+How would you describe,Feedback/Opinion Intent
+What’s the best way to relax after a long day?,Emotional Support Intent
+How can I feel better about someone that passed away?,Emotional Support Intent
+I did poorly on my final exam.,Emotional Support Intent
+Can you confirm my appointment for tomorrow?,Confirmation Intent
+I have to eat burgers tomorrow correct?,Confirmation Intent
+Turtles can live over 100 years old.,Confirmation Intent
+Tell me about the history of the Roman Empire.,Curious Intent
+Out of curiosity how old is Mars?,Curious Intent
+What biological features would humans need to be able to fly?,Curious Intent
+What are the pros and cons of working remotely?,Comparative Intent
+Give me the advantages and disadvantages of using a microwave.,Comparative Intent
+What benefits could the tariffs provide to Canada? What could be the downsides?,Comparative Intent
+How does the human brain process emotions?,Curious Intent
+Why do some animals hibernate during winter?,Curious Intent
+What causes the northern lights?,Curious Intent
+Can you explain how black holes work?,Curious Intent
+What time does the last train leave?,Precise/Urgent Intent
+How many states are there in the U.S.?,Precise/Urgent Intent
+What’s the boiling point of water in Fahrenheit?,Precise/Urgent Intent
+Where can I find the settings on my phone?,Navigational Intent
+Where is the nearest ATM?,Navigational Intent
+Can you give me directions to the library?,Navigational Intent
+What are some signs that help direct me where to go?,Navigational Intent
+How do I get to the airport from here?,Navigational Intent
+What's the fastest way to downtown?,Navigational Intent
+Is there a gas station nearby?,Navigational Intent
+How far is it to the next town?,Navigational Intent
+Which way do I go to reach the highway?,Navigational Intent
+Can you guide me to the exit?,Navigational Intent
+Where am I on the map?,Navigational Intent
+How do I find my way back to the hotel?,Navigational Intent
+Is this the right bus to the museum?,Navigational Intent
+Where is the information desk located?,Navigational Intent
+Can you point me in the direction of the restrooms?,Navigational Intent
+How do I navigate through this website?,Navigational Intent
+Where can I find the help section?,Navigational Intent
+What's the URL for the company's website?,Navigational Intent
+How do I access my account settings?,Navigational Intent
+Where is the search bar?,Navigational Intent
+Can you show me how to get to the checkout page?,Navigational Intent
+How do I find the product I'm looking for?,Navigational Intent
+Where can I track my order?,Navigational Intent
+How do I return an item?,Navigational Intent
+Where is the customer service number?,Navigational Intent
+Can you direct me to the nearest subway station?,Navigational Intent
+How do I transfer between lines?,Navigational Intent
+What's the next train schedule?,Navigational Intent
+Where can I buy a ticket?,Navigational Intent
+Is there a map of the subway system?,Navigational Intent
+How do I find a parking spot near the restaurant?,Navigational Intent
+Where can I find a charging station for my electric car?,Navigational Intent
+Is there a bike path in this area?,Navigational Intent
+How do I get to the top of the mountain?,Navigational Intent
+Where is the trailhead located?,Navigational Intent
+Can you recommend a scenic route?,Navigational Intent
+How do I find my way around this building?,Navigational Intent
+Where is the elevator/stairs?,Navigational Intent
+Is there a directory of offices?,Navigational Intent
+How do I get to the conference room?,Navigational Intent
+Where is the meeting being held?,Navigational Intent
+Can you help me find my seat?,Navigational Intent
+How do I get to the stage?,Navigational Intent
+Where is the backstage area?,Navigational Intent
+Is there a map of the venue?,Navigational Intent
+How do I find my friends in the crowd?,Navigational Intent
+Where is the lost and found?,Navigational Intent
+Can you help me find my car in the parking lot?,Navigational Intent
+Which is better for gaming a PC or a console?,Comparative Intent
+What are the pros and cons of electric vs. gas cars?,Comparative Intent
+How does Android compare to iOS in security?,Comparative Intent
+My Wi-Fi keeps disconnecting. How can I fix it?,Support/Help Intent
+Why is my laptop running so slowly?,Support/Help Intent
+Can you help me recover my lost files?,Support/Help Intent
+What do people think about the latest iPhone update?,Feedback/Opinion Intent
+Is the new Batman movie worth watching?,Feedback/Opinion Intent
+How do users feel about the new Windows update?,Feedback/Opinion Intent
+Is my reservation confirmed?,Confirmation Intent
+Did you receive my payment?,Confirmation Intent
+Can you verify that my package has shipped?,Confirmation Intent
+What are some interesting places to visit in Japan?,Curious Intent
+Tell me about the most dangerous animals in the world.,Curious Intent
+What are some unique traditions around the world?,Curious Intent
+I'm feeling anxious. What can I do to relax?,Emotional Support Intent
+How do I deal with social anxiety?,Emotional Support Intent
+What are some effective ways to handle stress?,Emotional Support Intent
+Can you explain the process of climate change?,Curious Intent
+What triggered the Industrial Revolution?,Curious Intent
+How do quantum computers work?,Curious Intent
+What is the current population of Tokyo?,Precise/Urgent Intent
+What is the exact weight of the Eiffel Tower?,Precise/Urgent Intent
+What time is sunset today in New York?,Precise/Urgent Intent
+How do I find academic papers on renewable energy?,Navigational Intent
+Where can I download free e-books?,Navigational Intent
+Where can I find the pricing page on your website?,Navigational Intent
+Take me to my account settings.,Navigational Intent
+Show me the latest blog posts on AI trends.,Navigational Intent
+How do I navigate to the support section?,Navigational Intent
+Where can I access my transaction history?,Navigational Intent
+How do I access my online banking portal?,Navigational Intent
+Compare the features of AirPods Pro and Sony WF-1000XM4.,Comparative Intent
+What's better: Python or JavaScript for web development?,Comparative Intent
+Electric bike vs. traditional bicycle - pros and cons?,Comparative Intent
+My computer won't connect to Wi-Fi.,Support/Help Intent
+How do I remove a virus from my laptop?,Support/Help Intent
+I’m locked out of my account - how do I reset my password?,Support/Help Intent
+How do I install the latest software update?,Support/Help Intent
+I can’t complete my order - can someone help?,Support/Help Intent
+My internet is down - what should I do?,Support/Help Intent
+I need help understanding my insurance policy.,Support/Help Intent
+Can you help me reset my smart home device?,Support/Help Intent
+What are people saying about the new Marvel movie?,Feedback/Opinion Intent
+Should I invest in cryptocurrency?,Feedback/Opinion Intent
+What do critics think about the latest restaurant in town?,Feedback/Opinion Intent
+Is my flight on schedule?,Confirmation Intent
+Can you confirm my restaurant reservation?,Confirmation Intent
+Verify that my concert tickets are valid.,Confirmation Intent
+What are the most mysterious places on Earth?,Curious Intent
+Tell me about undiscovered deep-sea creatures.,Curious Intent
+What are some emerging technologies?,Curious Intent
+I'm feeling overwhelmed with work stress.,Emotional Support Intent
+How can I improve my mental health?,Emotional Support Intent
+Strategies for dealing with imposter syndrome.,Emotional Support Intent
+Explain the process of photosynthesis in detail.,Curious Intent
+What caused the fall of the Roman Empire?,Curious Intent
+How do black holes form?,Curious Intent
+What is the capital of Australia?,Precise/Urgent Intent
+What's the current exchange rate for Euros?,Precise/Urgent Intent
+What is the exact time in London right now?,Precise/Urgent Intent
+How do I find research on marine biology?,Navigational Intent
+Where can I access free online courses?,Navigational Intent
+How to find local community events?,Navigational Intent
+Compare fitness trackers: Fitbit vs Garmin.,Comparative Intent
+MacBook Air vs Surface Laptop - which is better?,Comparative Intent
+Difference between vegan and vegetarian diets?,Comparative Intent
+What’s the difference between,Comparative Intent
+Which is better: iPhone 15 or Samsung Galaxy S24,Comparative Intent
+How does your company compare to your competitors?,Comparative Intent
+Is it cheaper to book a flight in advance or last minute?,Comparative Intent
+Which is more effective: intermittent fasting or keto diet?,Comparative Intent
+My smartphone battery drains too quickly.,Support/Help Intent
+How to fix a slow internet connection?,Support/Help Intent
+Can you help me recover deleted photos?,Support/Help Intent
+What are reviews saying about the new novel?,Feedback/Opinion Intent
+Should I watch the latest Netflix series?,Feedback/Opinion Intent
+Public opinion on recent political developments?,Feedback/Opinion Intent
+Confirm my dental appointment time.,Confirmation Intent
+Is my package delivery on track?,Confirmation Intent
+Verify the details of my concert tickets.,Confirmation Intent
+Interesting archaeological discoveries worldwide.,Curious Intent
+Tell me about unexplored rainforest regions.,Curious Intent
+What are some unique cultural practices?,Curious Intent
+Coping with anxiety during major life changes.,Emotional Support Intent
+How to build emotional resilience?,Emotional Support Intent
+Techniques for managing chronic stress.,Emotional Support Intent
+What are the origins of human language?,Curious Intent
+How did the Silk Road impact global trade?,Curious Intent
+Explain the evolution of mammals.,Curious Intent
+Current population of the International Space Station?,Precise/Urgent Intent
+What is the exact temperature on Mars today?,Precise/Urgent Intent
+What's the current stock price of Apple?,Precise/Urgent Intent
+What’s my current account balance?,Precise/Urgent Intent
+How do I cancel my subscription right now?,Precise/Urgent Intent
+Is the store open at 11 PM today?,Precise/Urgent Intent
+I need a taxi in 5 minutes - what’s the fastest way to book?,Precise/Urgent Intent
+How do I quickly remove a virus from my laptop?,Precise/Urgent Intent
+How to find peer-reviewed scientific journals?,Navigational Intent
+Where can I access government records?,Navigational Intent
+How to navigate online learning platforms?,Navigational Intent
+Compare cloud storage services: Dropbox vs Google Drive.,Comparative Intent
+Android vs iOS: privacy features compared.,Comparative Intent
+Differences between freelancing and full-time work?,Comparative Intent
+Troubleshooting my smart home thermostat.,Support/Help Intent
+How to resolve printer connectivity issues?,Support/Help Intent
+Can you help me set up email forwarding?,Support/Help Intent
+Public sentiment about remote work trends?,Feedback/Opinion Intent
+What do critics say about the new restaurant?,Feedback/Opinion Intent
+Opinions on recent technological innovations?,Feedback/Opinion Intent
+I love your new app update! It’s so much smoother.,Feedback/Opinion Intent
+Your customer service was really slow today.,Feedback/Opinion Intent
+Do you think this laptop is worth buying?,Feedback/Opinion Intent
+I’d like to suggest adding a dark mode feature.,Feedback/Opinion Intent
+What’s your honest opinion on electric cars?,Feedback/Opinion Intent
+Confirm my upcoming job interview details.,Confirmation Intent
+Is my subscription renewal processed?,Confirmation Intent
+Verify my membership account status.,Confirmation Intent
+Unexplained phenomena in scientific research.,Curious Intent
+Tell me about potential extraterrestrial life.,Curious Intent
+What are emerging global trends?,Curious Intent
+Managing grief and emotional healing.,Emotional Support Intent
+Strategies for overcoming career burnout.,Emotional Support Intent
+How to support a friend with depression?,Emotional Support Intent
+How does the human body regulate temperature?,Curious Intent
+What are the ethical implications of artificial intelligence?,Curious Intent
+Can you explain the theory of relativity in simple terms?,Curious Intent
+What is the exact distance between Earth and Mars today?,Precise/Urgent Intent
+What is the current time in Tokyo?,Precise/Urgent Intent
+How many calories are in a medium-sized avocado?,Precise/Urgent Intent
+Where can I find the privacy settings on my social media account?,Navigational Intent
+How do I access the advanced settings on my router?,Navigational Intent
+Where is the nearest charging station for electric vehicles?,Navigational Intent
+What are the differences between classical and operant conditioning?,Comparative Intent
+Compare the nutritional value of quinoa and brown rice.,Comparative Intent
+What are the pros and cons of solar energy versus wind energy?,Comparative Intent
+My car won't start. What could be the issue?,Support/Help Intent
+How do I troubleshoot a frozen computer screen?,Support/Help Intent
+Can you guide me through setting up a VPN?,Support/Help Intent
+What do people think about the new tax reforms?,Feedback/Opinion Intent
+How do you feel about the impact of social media on mental health?,Feedback/Opinion Intent
+Should schools implement more technology in classrooms?,Feedback/Opinion Intent
+Is it confirmed that the event starts at 7 PM?,Confirmation Intent
+Did I submit my application correctly?,Confirmation Intent
+Can you verify that my order has been shipped?,Confirmation Intent
+Just to confirm - my order will arrive by Friday right?,Confirmation Intent
+Am I eligible for the student discount?,Confirmation Intent
+Is this the latest version of the software?,Confirmation Intent
+Can you confirm if my payment went through?,Confirmation Intent
+Are you sure this hotel has free parking?,Confirmation Intent
+What are some lesser-known facts about the ocean?,Curious Intent
+Tell me about the potential of quantum computing.,Curious Intent
+What are some innovative ways to reduce plastic waste?,Curious Intent
+I'm feeling overwhelmed with my workload. Any advice?,Emotional Support Intent
+How can I cope with the loss of a loved one?,Emotional Support Intent
+What are some ways to manage anxiety during public speaking?,Emotional Support Intent
+I just lost my job and I feel really overwhelmed.,Emotional Support Intent
+I failed my exam. I don’t know what to do next.,Emotional Support Intent
+Can someone just listen? I’ve been feeling so down.,Emotional Support Intent
+I’m really nervous about my surgery tomorrow.,Emotional Support Intent
+I need motivation to keep going in my business.,Emotional Support Intent
+What is the exact weight of the Statue of Liberty?,Precise/Urgent Intent
+What is the current population of Canada?,Precise/Urgent Intent
+What is the boiling point of mercury?,Precise/Urgent Intent
+How do I find the best hiking trails in my area?,Navigational Intent
+Where can I locate the user agreement for this service?,Navigational Intent
+How do I navigate to the privacy policy on this website?,Navigational Intent
+What are the differences between a crocodile and an alligator?,Comparative Intent
+Compare the benefits of yoga and Pilates.,Comparative Intent
+What are the advantages and disadvantages of remote learning?,Comparative Intent
+My phone is overheating. What should I do?,Support/Help Intent
+How can I fix a leaking faucet?,Support/Help Intent
+Can you help me troubleshoot my smartwatch?,Support/Help Intent
+What are people saying about the new education policy?,Feedback/Opinion Intent
+Is the new diet trend effective according to experts?,Feedback/Opinion Intent
+How do users feel about the latest smartphone release?,Feedback/Opinion Intent
+Is my hotel booking confirmed for next week?,Confirmation Intent
+Can you verify that my flight is on time?,Confirmation Intent
+Did my payment go through successfully?,Confirmation Intent
+What are some fascinating facts about ancient civilizations?,Curious Intent
+Tell me about the potential of space tourism.,Curious Intent
+What are some groundbreaking scientific discoveries?,Curious Intent
+I'm feeling lonely. How can I connect with others?,Emotional Support Intent
+I feel sad,Emotional Support Intent
+I feel happy,Emotional Support Intent
+I am angry,Emotional Support Intent
+I feel anxious,Emotional Support Intent
+I feel frustrated,Emotional Support Intent
+I feel lonely,Emotional Support Intent
+I feel excited,Emotional Support Intent
+I feel overwhelmed,Emotional Support Intent
+I feel stressed,Emotional Support Intent
+I feel nervous,Emotional Support Intent
+I feel disappointed,Emotional Support Intent
+I feel hopeless,Emotional Support Intent
+I feel grateful,Emotional Support Intent
+I feel ashamed,Emotional Support Intent
+I feel confused,Emotional Support Intent
+I feel insecure,Emotional Support Intent
+I feel content,Emotional Support Intent
+I feel guilty,Emotional Support Intent
+I feel embarrassed,Emotional Support Intent
+I feel proud,Emotional Support Intent
+I feel loved,Emotional Support Intent
+I feel rejected,Emotional Support Intent
+How can I build self-confidence?,Emotional Support Intent
+What are some strategies for dealing with workplace stress?,Emotional Support Intent
+What is the exact height of Mount Everest?,Precise/Urgent Intent
+What is the current exchange rate for Bitcoin?,Precise/Urgent Intent
+What is the exact time in Sydney right now?,Precise/Urgent Intent
+How do I find scholarly articles on climate change?,Navigational Intent
+Where can I access free legal advice online?,Navigational Intent
+How do I locate the nearest recycling center?,Navigational Intent
+Compare the features of Tesla Model 3 and Model Y.,Comparative Intent
+What are the pros and cons of using a standing desk?,Comparative Intent
+How does the nutritional content of almond milk compare to cow's milk?,Comparative Intent
+My internet connection is unstable. How can I fix it?,Support/Help Intent
+How do I remove malware from my computer?,Support/Help Intent
+Can you help me set up a home security system?,Support/Help Intent
+What are people saying about the new healthcare policy?,Feedback/Opinion Intent
+Is the new fitness app worth downloading?,Feedback/Opinion Intent
+How do users feel about the latest video game release?,Feedback/Opinion Intent
+Is my doctor's appointment confirmed for tomorrow?,Confirmation Intent
+Can you verify that my subscription has been renewed?,Confirmation Intent
+Did my package arrive at the destination?,Confirmation Intent
+What are some mysterious ancient artifacts?,Curious Intent
+Tell me about the potential of artificial intelligence in healthcare.,Curious Intent
+What are some innovative solutions to urban pollution?,Curious Intent
+I'm feeling insecure about my abilities. Any tips?,Emotional Support Intent
+How can I manage my anger effectively?,Emotional Support Intent
+What are some ways to improve my emotional well-being?,Emotional Support Intent
+What are the benefits of intermittent fasting?,Curious Intent
+How do self-driving cars make decisions?,Curious Intent
+What is the significance of the Rosetta Stone?,Curious Intent
+How do black holes work?,Curious Intent
+Why do birds fly in a V formation?,Curious Intent
+What’s the history behind the Great Wall of China?,Curious Intent
+Can AI ever become conscious?,Curious Intent
+I'm curious about this.,Curious Intent
+I want to know more about this.,Curious Intent
+I'm curious about this.,Curious Intent
+I want to know more about this.,Curious Intent
+Tell me all you know about,Curious Intent
+I’d love to learn more about this.,Curious Intent
+Can you explain this to me?,Curious Intent
+I’m interested in knowing more.,Curious Intent
+I have some questions about this.,Curious Intent
+I’d like to understand this better.,Curious Intent
+Could you provide more details?,Curious Intent
+I’m eager to learn about this.,Curious Intent
+I wonder how this works.,Curious Intent
+Can you break this down for me?,Curious Intent
+Give me more insight into this.,Curious Intent
+What’s the full story behind this?,Curious Intent
+I’d appreciate a deeper explanation.,Curious Intent
+Could you clarify this for me?,Curious Intent
+Can you go into more detail?,Curious Intent
+I need more context on this.,Curious Intent
+I’m really intrigued by this.,Curious Intent
+I have a few doubts about this.,Curious Intent
+This is interesting—tell me more.,Curious Intent
+Help me understand this.,Curious Intent
+I’m keen to explore this further.,Curious Intent
+I’d like a thorough explanation.,Curious Intent
+How does caffeine affect the brain?,Curious Intent
+I want to know the exact meaning of,Precise/Urgent Intent
+What time does,Precise/Urgent Intent
+What is the exact?,Precise/Urgent Intent
+What is the current time in,Precise/Urgent Intent
+How many are in a?,Precise/Urgent Intent
+Give me the precise definition of,Precise/Urgent Intent
+I need the exact number of,Precise/Urgent Intent
+Tell me the exact time for,Precise/Urgent Intent
+What’s the specific value of,Precise/Urgent Intent
+How much exactly is,Precise/Urgent Intent
+I need an accurate count of,Precise/Urgent Intent
+What is the correct answer to,Precise/Urgent Intent
+I want a definitive answer for,Precise/Urgent Intent
+Can you provide the exact details on,Precise/Urgent Intent
+Give me an exact breakdown of,Precise/Urgent Intent
+Tell me the precise steps for,Precise/Urgent Intent
+How long exactly does it take to,Precise/Urgent Intent
+What is the official value of,Precise/Urgent Intent
+Can you confirm the exact number for,Precise/Urgent Intent
+I need an exact measurement of,Precise/Urgent Intent
+What is the verified data on,Precise/Urgent Intent
+Can you provide an exact timestamp for,Precise/Urgent Intent
+How many precisely are there in,Precise/Urgent Intent
+What is the precise location of,Precise/Urgent Intent
+I need the exact date of,Precise/Urgent Intent
+Tell me the precise meaning of,Precise/Urgent Intent
+What is the exact weight of,Precise/Urgent Intent
+How much exactly does this cost?,Precise/Urgent Intent
+I require an exact figure for,Precise/Urgent Intent
+What is the precise temperature of,Precise/Urgent Intent
+Can you give me the exact dimensions of,Precise/Urgent Intent
+I need the precise coordinates of,Precise/Urgent Intent
+What is the exact population of,Precise/Urgent Intent
+Tell me the precise ingredients in,Precise/Urgent Intent
+How many exactly are needed?,Precise/Urgent Intent
+What is the precise cause of,Precise/Urgent Intent
+Can you provide the exact specifications for,Precise/Urgent Intent
+I need the exact model number of,Precise/Urgent Intent
+What is the precise chemical formula for,Precise/Urgent Intent
+Tell me the exact voltage of,Precise/Urgent Intent
+How much exactly does it weigh?,Precise/Urgent Intent
+I require an exact replica of,Precise/Urgent Intent
+What is the precise boiling point of,Precise/Urgent Intent
+Can you give me the exact measurements in,Precise/Urgent Intent
+I need the precise GPS coordinates of,Precise/Urgent Intent
+What is the exact area of,Precise/Urgent Intent
+Tell me the precise origin of,Precise/Urgent Intent
+How many exactly are eligible?,Precise/Urgent Intent
+What is the precise definition of this term?,Precise/Urgent Intent
+Can you provide the exact details regarding,Precise/Urgent Intent
+I need an exact copy of,Precise/Urgent Intent
+What is the exact composition of,Precise/Urgent Intent
+Tell me the precise details about,Precise/Urgent Intent
+How long exactly is the warranty for?,Precise/Urgent Intent
+I require an exact estimate for,Precise/Urgent Intent
+What is the precise pressure of,Precise/Urgent Intent
+Can you give me the exact circumference of,Precise/Urgent Intent
+I need the precise volume of,Precise/Urgent Intent
+What is the exact capacity of,Precise/Urgent Intent
+Tell me the precise frequency of,Precise/Urgent Intent
+How many exactly are required for,Precise/Urgent Intent
+What is the precise rate of,Precise/Urgent Intent
+Can you provide the exact percentage of,Precise/Urgent Intent
+I need the exact proportion of,Precise/Urgent Intent
+What is the precise ratio of,Precise/Urgent Intent
+Tell me the precise correlation between,Precise/Urgent Intent
+How long exactly is the duration of,Precise/Urgent Intent
+I require an exact calculation of,Precise/Urgent Intent
+What is the precise probability of,Precise/Urgent Intent
+Where can I find the nearest gas station?,Navigational Intent
+How do I access my email settings?,Navigational Intent
+Where is the closest hospital?,Navigational Intent
+Compare the features of the iPhone 14 and iPhone 15.,Comparative Intent
+What are the pros and cons of using a Mac vs. a PC?,Comparative Intent
+How does the nutritional value of spinach compare to kale?,Comparative Intent
+Can you help me with,Support/Help Intent
+My printer is not printing. What should I do?,Support/Help Intent
+What can I do to,Support/Help Intent
+I want to,Support/Help Intent
+I need help with,Support/Help Intent
+Can you help figure out,Support/Help Intent
+Could you assist me with,Support/Help Intent
+I'm having trouble with,Support/Help Intent
+How do I fix,Support/Help Intent
+What’s the best way to,Support/Help Intent
+I need assistance with,Support/Help Intent
+Can someone guide me on,Support/Help Intent
+Could you walk me through,Support/Help Intent
+I’m stuck on,Support/Help Intent
+I’m not sure how to,Support/Help Intent
+Can you provide support for,Support/Help Intent
+What should I do if,Support/Help Intent
+How can I resolve,Support/Help Intent
+I need troubleshooting help for,Support/Help Intent
+Can you give me guidance on,Support/Help Intent
+I’m struggling with,Support/Help Intent
+I’d appreciate help with,Support/Help Intent
+Could you explain how to,Support/Help Intent
+What are the steps to fix,Support/Help Intent
+How do I solve this problem with,Support/Help Intent
+What’s the solution for,Support/Help Intent
+I require help with,Support/Help Intent
+Can you tell me how to,Support/Help Intent
+I could use some help with,Support/Help Intent
+Can you assist in resolving,Support/Help Intent
+How do I fix a broken zipper?,Support/Help Intent
+Can you help me set up a new email account?,Support/Help Intent
+What do people think about the new tax policy?,Feedback/Opinion Intent
+Is the new diet plan effective?,Feedback/Opinion Intent
+How do users feel about the latest social media update?,Feedback/Opinion Intent
+Is my flight delayed?,Confirmation Intent
+Can you confirm my hotel booking?,Confirmation Intent
+Did my payment go through?,Confirmation Intent
+I'm feeling overwhelmed with my studies. Any advice?,Emotional Support Intent
+How can I cope with the loss of a pet?,Emotional Support Intent
+What are some ways to manage anxiety during exams?,Emotional Support Intent
+What is the exact weight of the Great Pyramid of Giza?,Precise/Urgent Intent
+What is the current population of India?,Precise/Urgent Intent
+What is the boiling point of alcohol?,Precise/Urgent Intent
+How do I find the best coffee shops in my area?,Navigational Intent
+Where can I locate the nearest post office?,Navigational Intent
+How do I navigate to the nearest park?,Navigational Intent
+What are the differences between a lion and a tiger?,Comparative Intent
+Compare the benefits of running and cycling.,Comparative Intent
+What are the advantages and disadvantages of online shopping?,Comparative Intent
+My car is making a strange noise. What should I do?,Support/Help Intent
+How do I fix a leaky roof?,Support/Help Intent
+Can you help me set up a new Wi-Fi network?,Support/Help Intent
+What do people think about the new education reforms?,Feedback/Opinion Intent
+Is the new movie worth watching?,Feedback/Opinion Intent
+How do users feel about the latest smartphone features?,Feedback/Opinion Intent
+Compare the features of the iPhone 14 and iPhone 15.,Comparative Intent
+What are the pros and cons of using a Mac vs. a PC?,Comparative Intent
+How does the nutritional value of spinach compare to kale?,Comparative Intent
+Is TensorFlow better than PyTorch for deep learning?,Comparative Intent
+Which is more efficient: Bubble sort or Merge sort?,Comparative Intent
+Should I use PostgreSQL or MongoDB for a machine learning project?,Comparative Intent
+Is REST API more scalable than GraphQL?,Comparative Intent
+Which is faster: NumPy or Pandas for data manipulation?,Comparative Intent
+Compare and contrast,Comparative Intent
+What are the differences between,Comparative Intent
+What are the advantages and disadvantages of living in a city versus the suburbs?,Comparative Intent
+How do electric cars compare to gasoline cars in terms of cost and environmental impact?,Comparative Intent
+Which programming language is better for web development: Python or JavaScript?,Comparative Intent
+What are the key differences between a credit card and a debit card?,Comparative Intent
+Compare the performance of different cloud computing platforms like AWS Azure and GCP.,Comparative Intent
+Which is a better investment: stocks or bonds?,Comparative Intent
+How does the quality of education compare between public schools and private schools?,Comparative Intent
+What are the differences between a traditional IRA and a Roth IRA?,Comparative Intent
+Compare the effectiveness of different weight loss programs.,Comparative Intent
+Which type of exercise is more beneficial for cardiovascular health: running or swimming?,Comparative Intent
+What are the pros and cons of online learning versus in-person classes?,Comparative Intent
+Compare the prices of different grocery stores in my area.,Comparative Intent
+Which airline offers the best deals on flights to Europe?,Comparative Intent
+How do different types of coffee beans compare in terms of flavor and caffeine content?,Comparative Intent
+What are the differences between a sedan an SUV and a truck?,Comparative Intent
+Compare the features of different smartwatches.,Comparative Intent
+Which streaming service offers the best selection of movies and TV shows?,Comparative Intent
+What are the advantages and disadvantages of renting an apartment versus buying a house?,Comparative Intent
+Compare the job opportunities in different fields such as technology healthcare and finance.,Comparative Intent
+Which career path offers better long-term growth potential: software engineering or data science?,Comparative Intent
+How do different types of insurance policies compare in terms of coverage and cost?,Comparative Intent
+What are the differences between a checking account and a savings account?,Comparative Intent
+Compare the interest rates offered by different banks for mortgages.,Comparative Intent
+Which is a better travel destination: Europe or Asia?,Comparative Intent
+How do different types of vacations compare in terms of cost and relaxation: beach vacations adventure tours or city breaks?,Comparative Intent
+What are the differences between a cruise and a resort vacation?,Comparative Intent
+Compare the cultural experiences offered by different countries.,Comparative Intent
+Which is a better pet: a cat or a dog?,Comparative Intent
+How do different breeds of dogs compare in terms of temperament and exercise needs?,Comparative Intent
+What are the differences between a goldfish and a betta fish?,Comparative Intent
+Compare the lifespan of different types of pets.,Comparative Intent
+Which is a better investment: gold or silver?,Comparative Intent
+How do different types of real estate investments compare in terms of risk and return: residential commercial or land?,Comparative Intent
+What are the differences between a mutual fund and an exchange-traded fund (ETF)?,Comparative Intent
+Compare the performance of different stock market indices such as the S&P 500 and the Dow Jones Industrial Average.,Comparative Intent
+What is the time complexity of Dijkstra’s algorithm?,Precise/Urgent Intent
+How do I install PyTorch using pip?,Precise/Urgent Intent
+What’s the default learning rate for Adam optimizer in TensorFlow?,Precise/Urgent Intent
+Which Python version introduced the walrus operator?,Precise/Urgent Intent
+How do I convert a Pandas DataFrame to a NumPy array?,Precise/Urgent Intent
+Where can I find the official documentation for Scikit-Learn?,Navigational Intent
+How do I access my Jupyter notebooks from Google Colab?,Navigational Intent
+Where is the settings page for VS Code extensions?,Navigational Intent
+Where can I find pre-trained models in Hugging Face?,Navigational Intent
+How do I navigate to the debugger in PyCharm?,Navigational Intent
+Why am I getting a CUDA out of memory error in PyTorch?,Support/Help Intent
+How do I resolve the module not found error in Python?,Support/Help Intent
+My Jupyter Notebook kernel keeps dying. How do I fix this?,Support/Help Intent
+Why is my neural network overfitting despite dropout?,Support/Help Intent
+How do I debug segmentation faults in C?,Support/Help Intent
+Is PyCharm better than VS Code for Python development?,Feedback/Opinion Intent
+What’s your opinion on test-driven development in machine learning?,Feedback/Opinion Intent
+Are coding bootcamps worth it for becoming a software engineer?,Feedback/Opinion Intent
+Do you think automated ML models are as good as manually tuned ones?,Feedback/Opinion Intent
+What’s the best way to learn competitive programming?,Feedback/Opinion Intent
+Does Pandas support multi-indexing?,Confirmation Intent
+Is it safe to use eval() in Python?,Confirmation Intent
+Does GitHub Copilot work with Jupyter Notebooks?,Confirmation Intent
+Can I use multiple GPUs for training in TensorFlow?,Confirmation Intent
+Is JavaScript necessary for frontend development?,Confirmation Intent
+I feel stuck learning recursion. Is it normal?,Emotional Support Intent
+Debugging is making me want to quit programming. Any advice?,Emotional Support Intent
+I failed a coding interview. How do I recover?,Emotional Support Intent
+Why does imposter syndrome hit so hard in tech?,Emotional Support Intent
+Learning machine learning feels overwhelming. Any motivation?,Emotional Support Intent
+What are some real-world applications of graph neural networks?,Curious Intent
+What are the stages of mitosis?,Curious Intent
+How does CRISPR gene editing work?,Curious Intent
+Explain the concept of dark matter.,Curious Intent
+What are the different types of galaxies?,Curious Intent
+How does the stock market work?,Curious Intent
+What is the history of the internet?,Curious Intent
+Why do we dream?,Curious Intent
+What is the science behind optical illusions?,Curious Intent
+How do vaccines work?,Curious Intent
+What are the long-term effects of climate change?,Curious Intent
+What is the population of London?,Precise/Urgent Intent
+What is the current price of gold?,Precise/Urgent Intent
+What time is it in Los Angeles?,Precise/Urgent Intent
+What is the date today?,Precise/Urgent Intent
+How many calories are in a banana?,Precise/Urgent Intent
+What is the flight number for AA123?,Precise/Urgent Intent
+What is the tracking number for my package?,Precise/Urgent Intent
+What is the phone number for the emergency services?,Precise/Urgent Intent
+What is the address of the nearest hospital?,Precise/Urgent Intent
+What is the weather forecast for tomorrow?,Precise/Urgent Intent
+Where can I find information about financial aid for college?,Navigational Intent
+How do I find a reputable plumber in my area?,Navigational Intent
+Where can I learn to play the guitar online?,Navigational Intent
+Where can I find reviews for local restaurants?,Navigational Intent
+How do I find the best deals on flights?,Navigational Intent
+Where can I find coupons for grocery stores?,Navigational Intent
+How do I find a therapist near me?,Navigational Intent
+Where can I find volunteer opportunities in my community?,Navigational Intent
+How do I find the cheapest gas prices near me?,Navigational Intent
+Where can I find information about local elections?,Navigational Intent
+Compare the latest Samsung and Google phones.,Comparative Intent
+What are the differences between a hybrid and an electric car?,Comparative Intent
+Which is better for weight loss: running or swimming?,Comparative Intent
+What are the advantages and disadvantages of homeschooling?,Comparative Intent
+Compare the different types of investment accounts.,Comparative Intent
+What's the difference between a debit card and a credit card?,Comparative Intent
+Which is more fuel-efficient: a sedan or an SUV?,Comparative Intent
+What are the pros and cons of living in a city versus a suburb?,Comparative Intent
+Compare the features of different project management software.,Comparative Intent
+What are the differences between a traditional IRA and a Roth IRA?,Comparative Intent
+My computer is frozen. What should I do?,Support/Help Intent
+How do I fix a broken screen on my phone?,Support/Help Intent
+My car is making a strange noise. What could it be?,Support/Help Intent
+How do I troubleshoot a slow internet connection?,Support/Help Intent
+My printer is not printing. What should I do?,Support/Help Intent
+How do I reset my router?,Support/Help Intent
+My washing machine is leaking. What should I do?,Support/Help Intent
+How do I remove a virus from my computer?,Support/Help Intent
+My oven is not heating up. What could be the problem?,Support/Help Intent
+How do I fix a flat tire on my bicycle?,Support/Help Intent
+What do people think about the new iPhone?,Feedback/Opinion Intent
+Is the new Marvel movie worth watching?,Feedback/Opinion Intent
+What are the best restaurants in town?,Feedback/Opinion Intent
+How do you feel about the current political climate?,Feedback/Opinion Intent
+What are your thoughts on artificial intelligence?,Feedback/Opinion Intent
+Should I buy a new car or a used car?,Feedback/Opinion Intent
+Is it a good time to invest in the stock market?,Feedback/Opinion Intent
+What do you think about the latest fashion trends?,Feedback/Opinion Intent
+How do you feel about online learning?,Feedback/Opinion Intent
+What are your opinions on the new tax laws?,Feedback/Opinion Intent
+Is my flight on time?,Confirmation Intent
+Is my hotel reservation confirmed?,Confirmation Intent
+Did I pay my bill?,Confirmation Intent
+Is my package delivered?,Confirmation Intent
+Did you receive my email?,Confirmation Intent
+Is the meeting still scheduled for tomorrow?,Confirmation Intent
+Did my application get accepted?,Confirmation Intent
+Is my appointment confirmed for next week?,Confirmation Intent
+Did my order ship?,Confirmation Intent
+Is my subscription still active?,Confirmation Intent
+I'm feeling down. What can I do to lift my spirits?,Emotional Support Intent
+I'm stressed about work. How can I manage it?,Emotional Support Intent
+I'm having trouble sleeping. What can I do?,Emotional Support Intent
+I'm feeling anxious. What are some relaxation techniques?,Emotional Support Intent
+I'm going through a tough time. How can I cope?,Emotional Support Intent
+I'm feeling lonely. How can I connect with others?,Emotional Support Intent
+I'm struggling with low self-esteem. How can I improve it?,Emotional Support Intent
+I'm feeling overwhelmed. What are some stress management tips?,Emotional Support Intent
+I'm having trouble with my relationship. What should I do?,Emotional Support Intent
+I'm grieving the loss of a loved one. How can I heal?,Emotional Support Intent
+I'm feeling hopeless. How can I find motivation?,Emotional Support Intent
+I'm feeling unmotivated. How do I get back on track?,Emotional Support Intent
+I feel lost in life. What should I do?,Emotional Support Intent
+I'm feeling rejected. How can I handle it?,Emotional Support Intent
+I'm dealing with social anxiety. What are some ways to cope?,Emotional Support Intent
+I'm feeling insecure. How can I build confidence?,Emotional Support Intent
+I'm struggling with work-life balance. How can I manage better?,Emotional Support Intent
+I'm feeling burnt out. How can I recover?,Emotional Support Intent
+I'm dealing with a breakup. How can I move on?,Emotional Support Intent
+I feel like I'm not good enough. How do I change this?,Emotional Support Intent
+I'm feeling stuck in life. How can I move forward?,Emotional Support Intent
+I'm feeling disappointed in myself. How do I handle it?,Emotional Support Intent
+I'm having a rough day. How can I feel better?,Emotional Support Intent
+I'm worried about the future. How do I stop overthinking?,Emotional Support Intent
+I'm struggling to stay positive. What can I do?,Emotional Support Intent
+I'm feeling guilty about something. How can I forgive myself?,Emotional Support Intent
+I'm scared of failure. How do I overcome this?,Emotional Support Intent
+I'm feeling jealous. How can I manage this emotion?,Emotional Support Intent
+I feel emotionally drained. How do I recharge?,Emotional Support Intent
+I'm struggling with change. How can I adapt?,Emotional Support Intent
+Explain photosynthesis.,Curious Intent
+How does photosynthesis work in plants?,Curious Intent
+What's the process of photosynthesis?,Curious Intent
+Tell me about the science behind photosynthesis.,Curious Intent
+I'd like to understand how plants make food.,Curious Intent
+What caused the Second World War?,Curious Intent
+Origins of WWII?,Curious Intent
+Why did World War 2 happen?,Curious Intent
+What were the factors leading to World War II?,Curious Intent
+Can you tell me about the causes of WWII?,Curious Intent
+When will we have flying cars commercially available?,Curious Intent
+Who's developing flying cars?,Curious Intent
+What companies are working on flying cars?,Curious Intent
+Are flying cars a reality yet?,Curious Intent
+Tell me about the future of flying cars.,Curious Intent
+Capital of France?,Precise/Urgent Intent
+What's the capital city of France?,Precise/Urgent Intent
+France's capital city?,Precise/Urgent Intent
+Paris is the capital of what country?,Precise/Urgent Intent
+Need to know the capital of France.,Precise/Urgent Intent
+Who was the first US president?,Precise/Urgent Intent
+First president of the USA?,Precise/Urgent Intent
+Who held the office of president first in the United States?,Precise/Urgent Intent
+Name the first American president.,Precise/Urgent Intent
+The first leader of the United States was who?,Precise/Urgent Intent
+How soon should I follow up on a job application?,Precise/Urgent Intent
+When is it appropriate to send a follow-up email?,Precise/Urgent Intent
+What's a good timeframe for a follow-up email?,Precise/Urgent Intent
+Should I send another email after a week?,Precise/Urgent Intent
+When should I send a follow-up email after no response?,Precise/Urgent Intent
+Where can I find the manual for this device?,Navigational Intent
+Need the user guide for this product.,Navigational Intent
+Looking for the product manual.,Navigational Intent
+Find the instruction manual for this item.,Navigational Intent
+Where do I find instructions for this product?,Navigational Intent
+Where can I research breast cancer?,Navigational Intent
+Looking for breast cancer research articles.,Navigational Intent
+Find me research on breast cancer.,Navigational Intent
+I need articles about breast cancer.,Navigational Intent
+Where do I find studies about breast cancer?,Navigational Intent
+How do I beat the A Link to the Past puzzle?,Navigational Intent
+Zelda puzzle help needed.,Navigational Intent
+Stuck on a Zelda puzzle - any tips?,Navigational Intent
+A Link to the Past puzzle solution?,Navigational Intent
+Need help with a Zelda puzzle.,Navigational Intent
+iPhone vs Android: which is better?,Comparative Intent
+Comparing iPhones and Androids.,Comparative Intent
+Android or iPhone? Pros and cons.,Comparative Intent
+What are the advantages of an iPhone over an Android?,Comparative Intent
+Which phone is right for me: iPhone or Android?,Comparative Intent
+Computer science vs computer engineering: what's the difference?,Comparative Intent
+What are the career paths in computer science and engineering?,Comparative Intent
+Is computer science or engineering a better fit for me?,Comparative Intent
+Compare and contrast CS and CE.,Comparative Intent
+How are computer science and computer engineering similar and different?,Comparative Intent
+Fertilizer vs pesticide: what's the difference?,Comparative Intent
+What's the difference between fertilizers and pesticides?,Comparative Intent
+Are fertilizers and pesticides the same thing?,Comparative Intent
+Explain the difference between fertilizer and pesticide.,Comparative Intent
+What are the effects of fertilizers and pesticides?,Comparative Intent
+My phone is dead help!,Support/Help Intent
+Phone won't turn on. Any ideas?,Support/Help Intent
+My phone's not working. What should I do?,Support/Help Intent
+Troubleshooting a phone that won't power on.,Support/Help Intent
+I need help fixing my phone.,Support/Help Intent
+My code isn't working. What's wrong?,Support/Help Intent
+Code debugging help.,Support/Help Intent
+Why is my program crashing?,Support/Help Intent
+I need help with my code.,Support/Help Intent
+My program has errors. What do I do?,Support/Help Intent
+Flat tire emergency! What to do?,Support/Help Intent
+Car tire trouble. Need advice.,Support/Help Intent
+Punctured tire. Help needed.,Support/Help Intent
+What to do when you get a flat tire?,Support/Help Intent
+I have a flat tire. What now?,Support/Help Intent
+Tesla Model opinions?,Feedback/Opinion Intent
+Thoughts on the new Tesla?,Feedback/Opinion Intent
+What do people think of the latest Tesla release?,Feedback/Opinion Intent
+Reviews of the new Tesla Model?,Feedback/Opinion Intent
+Is the new Tesla worth buying?,Feedback/Opinion Intent
+Grammy reactions?,Feedback/Opinion Intent
+Opinions on the Grammy awards?,Feedback/Opinion Intent
+What did you think of the Grammys?,Feedback/Opinion Intent
+How were the Grammy results received?,Feedback/Opinion Intent
+Grammy feedback?,Feedback/Opinion Intent
+Should the US switch to metric?,Feedback/Opinion Intent
+Metric system in the US: good idea or bad idea?,Feedback/Opinion Intent
+What's your take on the US adopting the metric system?,Feedback/Opinion Intent
+Pros and cons of the metric system for America.,Feedback/Opinion Intent
+Is it time for the US to go metric?,Feedback/Opinion Intent
+Meeting at 3 PM confirmed?,Confirmation Intent
+Is the meeting at 3 o'clock?,Confirmation Intent
+Just checking: the meeting's at 3 right?,Confirmation Intent
+3 PM meeting - is that correct?,Confirmation Intent
+Confirming the meeting time: 3 PM?,Confirmation Intent
+Is 42 the answer to everything?,Confirmation Intent
+Is 42 the ultimate answer?,Confirmation Intent
+42 - the meaning of life?,Confirmation Intent
+Is 42 the magic number?,Confirmation Intent
+Confirming the significance of 42.,Confirmation Intent
+200 wpm typing speed - is that accurate?,Confirmation Intent
+Is my typing speed really 200 words per minute?,Confirmation Intent
+Just checking I type at 200 wpm right?,Confirmation Intent
+Confirming my typing speed.,Confirmation Intent
+Is my typing speed of 200 wpm correct?,Confirmation Intent
+Did you say the deadline is Friday?,Confirmation Intent
+So the deadline is this Friday?,Confirmation Intent
+Just to confirm Friday is the deadline?,Confirmation Intent
+Is Friday the day I need to submit this by?,Confirmation Intent
+Confirming the deadline: Friday.,Confirmation Intent
+We're meeting at the coffee shop right?,Confirmation Intent
+Is the coffee shop the correct meeting location?,Confirmation Intent
+Just checking - we're meeting at the coffee shop?,Confirmation Intent
+Confirming our meeting place: the coffee shop.,Confirmation Intent
+So it's the coffee shop where we're meeting?,Confirmation Intent
+Is the flight leaving at 7 AM?,Confirmation Intent
+Just confirming - the flight is at 7 in the morning?,Confirmation Intent
+7 AM flight - is that right?,Confirmation Intent
+Confirming the flight departure time: 7 AM.,Confirmation Intent
+Is 7 AM when my flight departs?,Confirmation Intent
+You said the price is $20 correct?,Confirmation Intent
+Just to make sure the price is $20?,Confirmation Intent
+$20 - is that the final price?,Confirmation Intent
+Confirming the price: $20.,Confirmation Intent
+Is $20 what I'm paying?,Confirmation Intent
+The address is 123 Main Street is that correct?,Confirmation Intent
+Just checking - the address is 123 Main Street?,Confirmation Intent
+123 Main Street - is that where I should go?,Confirmation Intent
+Confirming the address: 123 Main Street.,Confirmation Intent
+Is 123 Main Street the correct address?,Confirmation Intent
+You're coming to my house right?,Confirmation Intent
+Just confirming you're coming over?,Confirmation Intent
+So you're coming to my place?,Confirmation Intent
+Confirming your visit.,Confirmation Intent
+Is it my house you're coming to?,Confirmation Intent
+The movie starts at 8 right?,Confirmation Intent
+Just checking - the movie begins at 8?,Confirmation Intent
+8 PM movie time - is that correct?,Confirmation Intent
+Confirming the movie start time: 8 PM.,Confirmation Intent
+Is 8 o'clock when the movie starts?,Confirmation Intent
+Space facts please!,Curious Intent
+Tell me some interesting things about space.,Curious Intent
+I'm curious about space. What can you tell me?,Curious Intent
+What are some cool facts about the universe?,Curious Intent
+Anything interesting about space?,Curious Intent
+When will flying cars be a reality?,Curious Intent
+Flying cars in the future?,Curious Intent
+What's the timeline for flying cars?,Curious Intent
+When can I expect to see flying cars on the road?,Curious Intent
+The future of flying cars.,Curious Intent
+Work stress getting to me.,Emotional Support Intent
+Feeling overwhelmed at work. Help!,Emotional Support Intent
+How to deal with work-related stress?,Emotional Support Intent
+I'm so stressed at work what should I do?,Emotional Support Intent
+Need advice on managing work stress.,Emotional Support Intent
+Feeling totally burnt out.,Emotional Support Intent
+I'm experiencing burnout. What can I do?,Emotional Support Intent
+How to recover from burnout?,Emotional Support Intent
+Burnout help needed.,Emotional Support Intent
+Tips for dealing with burnout.,Emotional Support Intent
+Dealing with a breakup.,Emotional Support Intent
+Heartbreak help.,Emotional Support Intent
+Going through a breakup and it's tough.,Emotional Support Intent
+How to cope with a breakup?,Emotional Support Intent
+Need advice on moving on after a breakup.,Emotional Support Intent
+Best restaurants nearby?,Navigational Intent
+Good restaurants in this area?,Navigational Intent
+Where should I eat around here?,Navigational Intent
+Restaurant recommendations near me.,Navigational Intent
+Looking for a place to eat nearby.,Navigational Intent
+Getting to South Africa.,Navigational Intent
+How do I travel to South Africa?,Navigational Intent
+Best way to get to South Africa from here?,Navigational Intent
+Travel options to South Africa.,Navigational Intent
+Planning a trip to South Africa. How do I get there?,Navigational Intent
+Top tour guides in Ireland?,Navigational Intent
+Best Irish tour guides?,Navigational Intent
+Who are the best tour guides in Ireland?,Navigational Intent
+Recommended tour guides in Ireland.,Navigational Intent
+Finding a good tour guide in Ireland.,Navigational Intent
+Password reset help.,Support/Help Intent
+I need to reset my password.,Support/Help Intent
+How do I change my password?,Support/Help Intent
+Forgot my password. What to do?,Support/Help Intent
+Help with password recovery.,Support/Help Intent
+How do I find my MAC address?,Support/Help Intent
+Need my MAC address.,Support/Help Intent
+Where to locate my MAC address?,Support/Help Intent
+Finding my device's MAC address.,Support/Help Intent
+What is my MAC address?,Support/Help Intent
+Spilled water on my keyboard!,Support/Help Intent
+Keyboard water damage. Help!,Support/Help Intent
+How to dry out a wet keyboard?,Support/Help Intent
+Dealing with a water-damaged keyboard.,Support/Help Intent
