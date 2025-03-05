@@ -6,3 +6,4 @@ train.tsv
 best_model.pt
 /glove.6B
 .DS_Store
+.venv
