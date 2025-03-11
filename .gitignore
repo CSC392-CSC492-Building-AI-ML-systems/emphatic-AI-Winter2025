@@ -6,3 +6,7 @@ train.tsv
 best_model.pt
 /glove.6B
 .DS_Store
+ambiguity_model/ambiguity-detection-model/runs/Mar04_19-10-38_macbookpro.lan/events.out.tfevents.1741133439.macbookpro.lan.59169.0
+ambiguity_model/ambiguity-detection-model/runs/Mar04_19-18-12_macbookpro.lan/events.out.tfevents.1741133893.macbookpro.lan.59309.0
+ambiguity_model/ambiguity-detection-model/runs/Mar04_19-24-40_macbookpro.lan/events.out.tfevents.1741134280.macbookpro.lan.59552.0
+.venv
