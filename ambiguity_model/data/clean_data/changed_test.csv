@@ -1,0 +1,74 @@
+text,label
+"The absolute time of input will be associated with each sensed data item for <referential>its</referential> complete lifecycle, including permanent storage.",0
+Each sensed data item will be qualified as to <referential>its</referential> certitude during the acquisition process.,1
+Sensed data input to the tool shall be validated with respect to <referential>its</referential> expected range of values.,1
+"The faults identified and <referential>their</referential> causes and sources, shall be saved to permanent storage for subsequent analysis.",1
+"The tool shall monitor the unit under diagnosis, either in real time or batch mode, for an indefinite period of time or until input data are no longer available, and log diagnostic results as <referential>they</referential> are determined.",0
+"Selecting the “Configure Diagnostics” menu item of the main menu entitled “File” shall display the configuration window, making <referential>it</referential> the current window, modal to the main window.",0
+Entering a file name shall cause the permanent storage of the modified parameters and <referential>their</referential> immediate use by the diagnostic operations after confirmatory responses by the user.,1
+"If the user does not confirm the request to save, <referential>it</referential> will not be performed.",1
+"If the user does not confirm the request to relay the modified parameters to the diagnostic processing immediately, <referential>it</referential> will not be performed.",0
+"The subsystems window, condition window, and diagnostic information window shall display a title that indicates <referential>its</referential> specific location or absolute path in the navigation hierarchy of windows.",0
+This set(s) of indicators shall summarize diagnostic indicators not currently appearing on the list above (below) <referential>it</referential>.,0
+An indicator in the summary set shall be active if any similar indicator not appearing above (or below) <referential>it</referential> is active.,0
+The third window in the hierarchy is the subsystems window and <referential>it</referential> can only be displayed by a user selection on the main window.,1
+The fourth window in the hierarchy is the condition window and <referential>it</referential> can only be displayed by a user selection on the subsystems window.,1
+This window can only be displayed by a user selection on the condition window or by a user selection on the diagnostic history window if <referential>it</referential> is displayed.,0
+"In addition, some publishers may only allow <referential>their</referential> material to be served up through NLM’s system at a certain interval after its publication.",1
+"In addition, some publishers may only allow their material to be served up through NLM’s system at a certain interval after <referential>its</referential> publication.",0
+The Archival Information Update function in Administration also submits dissemination requests to obtain DIPs needed to perform <referential>its</referential> update functions.,0
+"During the development of the functional requirements for the NLM Digital Repository, <referential>it</referential> has become apparent that NLM will have several repositories – LocatorPlus, PubMed Central (covering journals), and the digital repository currently under investigation.",0
+"<referential>It</referential> is possible that the initial NLM Repository may be composed of more than one electronic storage facility, especially in the early development of the repository.",0
+"The NLM System Administration/Programming Access: Provides an NLM Administrative/Programming Level, ultimate rights to the system, required for <referential>its</referential> management, development, and for assigning appropriate rights to users.",0
+"Access rights and conditions to materials and the directories/folders in which <referential>they</referential> are kept must provide for one or more of the following basic privileges, either alone or in combination:• Create/Write access• Edit access• Read access• Delete access.",0
+Both an object and <referential>its</referential> related metadata may be embargoed in terms of public access.,1
+Access rights and conditions of use will be held for each digital object and <referential>its</referential> related metadata.,1
+"System must have the ability to search and display metadata, preferably in a user-conformable, human readable display as well as in <referential>its</referential> native format for machine harvesting and manipulation.",0
+The Clarus program shall maintain information about requestors and <referential>their</referential> access to data and information.,1
+The Clarus program shall operate the Clarus system according to <referential>its</referential> published IT Security Plan.,0
+The QChS shall be able to use historical environmental data in <referential>their</referential> quality checking algorithms.,0
+The QChS shall be implemented to quality check new observation types as <referential>they</referential> become available.,0
+The Clarus system shall process data as <referential>they</referential> are received.,1
+The QChS shall apply quality flags to data as <referential>they</referential> are received.,0
+The SS shall record when <referential>it</referential> initiates actions.,1
+The Clarus system shall be able to publish environmental data at three times the volume rate that <referential>it</referential> collects it.,0
+"<referential>It</referential> shall be possible to request that automatically generated migration metadata be stored in the converted iles (e.g., OS/Kernel type, original ARC name, ARC size, ARC digests, conversion timestamp, ARC record offset, ...).",1
+The IIPC members should provide <referential>us</referential> with the default METADATA they want to be included for migration.,0
+The IIPC members should provide us with the default METADATA <referential>they</referential> want to be included for migration.,1
+"Software checkpoints (such as start-trans, end-trans) may be added during processing for managing atomic transactions (e.g., operations on a ile, these must start and complete to be accepted in the migration), except where operating system limitations would prohibit <referential>it</referential>.",0
+<referential>It</referential> shall be possible to perform a “dry-run migration”.,1
+"To validate that the migration succeeded, arc_warc_verify will use the METADATA included in the newly generated WARC iles to match records with <referential>their</referential> corresponding ARC iles (see FR4, and FR5).",0
+Enhance the WARC browser to display aggregated WARCs summaries in <referential>its</referential> UI.,1
+Enhance the WARC browser to display a manifest of WARC iles and <referential>their</referential> locations.,1
+"As a train approaches the limits of the coverage of the PLMN <referential>it</referential> is registered with, <referential>it</referential> will be necessary for <referential>it</referential> to register with the next PLMN providing coverage.",0
+Each type of equipment has slightly different requirements placed upon <referential>it</referential> in terms of EMC and climate.,1
+"Where other data interfaces are implemented, <referential>they</referential> should be of the RS422 standard.",1
+"Upon switch on, once the radio is connected to a mobile network, <referential>it</referential> shall be able to receive all calls made using the MSISDN or appropriate group call number.",0
+"In addition, the Operational radio is specified to allow <referential>its</referential> use in the operating environment experienced on the operational railway (eg shunting and maintenance), with the specifications in this section taking priority over those in section 4 where any discrepancy is identified.",1
+The SIM cards shall be fixed into the radio such that <referential>they</referential> can only be removed by the use of a tool.,1
+"A group call controller who wishes to start talking (except in the case of an originator, a joiner or a re-joiner speaking for the first time5) shall indicate <referential>his</referential> wish, for example by pressing the PTT button, whereupon the 3-digit DTMF sequence “###” shall be transferred.",0
+The terminal of the controller should receive a single DTMF grant tone “#” of duration 100ms  5ms sent by the network if <referential>it</referential> has detected the 3-digit DTMF sequence “###” and if the controller was not previously talking.,0
+"Any group call controller who wishes to stop talking shall indicate <referential>his</referential> wish, for example by releasing the PTT button, whereupon the 3-digit DTMF sequence “#**” shall be transferred.",1
+"All Train Function Numbers and <referential>their</referential> associated MSISDN numbers shall be stored in the same routing database, which is the database of the GSM-R network in which the train is currently operating.",1
+"If functional numbers are to be used outside the EIRENE network, <referential>they</referential> will require either a public number allocation or, alternatively, an EIRENE Network Access Number (ENAN) may be used as described in 9.11 9.3.3 Each national railway should obtain a public numbering allocation for MSISDN numbers from the relevant regulatory bodies.",1
+<referential>It</referential> is the responsibility of each individual GSM-R operator to acquire a public domain NDC from their national telecommunications regulator.,0
+It is the responsibility of each individual GSM-R operator to acquire a public domain NDC from <referential>their</referential> national telecommunications regulator.,1
+Mobiles shall be capable of operation using algorithms for all countries in which <referential>they</referential> need to roam.,0
+"Functional numbering provides the mechanism by which a mobile terminal, or an item of equipment connected to a mobile terminal, can be addressed by a number identifying the function for which <referential>it</referential> is being used.",0
+"For international Railway emergency calls, in order to minimise call set-up times, <referential>it</referential> is recommended that the anchor MSC always directly controls the cell where the Railway emergency call was originated.",0
+Each mobile shall store a list of emergency Group IDs in the SIM appropriate to <referential>its</referential> function (the Cab radio will store Group ID 299 and 599 - see table 9-8).,0
+"For post-incident analysis <referential>it</referential> is important that the initiation and receipt of Railway emergency calls by mobiles is confirmed by a message sent to a ground-based location (and also registered in the train borne recorder, in cases where a train borne recorder is connected to the Cab radio).",0
+The common shunting group provides a point of contact for leaders and team members to set up a dedicated shunting group call for <referential>their</referential> shunting operation.,0
+The terminal application shall prevent members of a dedicated shunting team from initiating a new call (unless <referential>they</referential> are registered as shunting team leader and have left shunting mode using the “maintain group call” function described in 14.2.4).,1
+Users shall be prevented from joining a dedicated shunting group by the EIRENE terminal application unless a valid functional number for the group has been successfully registered to the GSM-R network by <referential>their</referential> terminal.,1
+"If an ETCS equipped train passes a level transition to one or more levels for which <referential>it</referential> is not equipped, ETCS shall initiate a brake application.",1
+"When memory alignment is permitted, Redundancy Management attempts to reintegrate a processor with the other members of <referential>its</referential> original FCP virtual group by commanding the affected FCP virtual group to perform re-synchronization operations.",0
+Network Element FTSS CSCIIBNF time-out Indicates that the members of the destination virtual group corresponding to the set bits did not free enough space in <referential>their</referential> input buffers to hold the incoming packet within the allowable time skew.,0
+The FTSS shall provide an API call to allow the ICP application to determine on which channel <referential>it</referential> resides.,0
+The FTPP shall recover from a babbling NE or ICP within 40 milliseconds after <referential>it</referential> is detected.,0
+<referential>It</referential> shall be possible to modify the CT whenever any of this information is changed by using a CT update primitive in a synchronous and atomic manner.,1
+"When a majority, but not a unanimity, of FCP members are observed with packets in <referential>their</referential> output buffers, a time-out shall (3.2.2.6.7) be initiated.",0
+"When the timestamp counter reaches the maximum value (Hex FFFFFFFF or approximately 5500 seconds), <referential>it</referential> shall (3.2.2.7.6) wrap around to zero.",1
+The Start-Up shall synchronize <referential>its</referential> FCP with other operational FCPs.,1
+"The Scheduler shall detect 50 Hz, 10 Hz, and 1 Hz frame overruns at the next frame following the end of <referential>their</referential> respective rate boundaries.",0
+The FTSS shall wait for the ICP to signal that <referential>it</referential> has completed initialization before suspending the application for memory re-alignment.,0
