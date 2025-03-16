@@ -1,180 +1,141 @@
-import pickle
 import os
 import numpy as np
-from pathlib import Path
+import joblib
+import torch
+from transformers import AutoTokenizer, AutoModelForSequenceClassification
+
+from ambiguitydetector import AmbiguityDetector
+
 
 class ModelPipeline:
     def __init__(self, ambiguity_model_path, intent_model_path, intent_tfidf_path, sentiment_model_path=None):
         """
-        Initialize the pipeline with paths to all required models
+        Initialize the pipeline with paths to all required models.
         
         Args:
-            ambiguity_model_path: Path to the ambiguity detection model
-            intent_model_path: Path to the intent classifier pickle file
-            intent_tfidf_path: Path to the TFIDF vectorizer pickle file
-            sentiment_model_path: Path to the sentiment classifier (optional)
+            ambiguity_model_path (str): Path to the ambiguity detection model.
+            intent_model_path (str): Path to the intent classifier file.
+            intent_tfidf_path (str): Path to the TFIDF vectorizer file.
+            sentiment_model_path (str, optional): Path to the sentiment classifier directory.
         """
         self.ambiguity_model_path = ambiguity_model_path
         self.intent_model_path = intent_model_path
         self.intent_tfidf_path = intent_tfidf_path
         self.sentiment_model_path = sentiment_model_path
-        
-        # Load models
+
         self.load_models()
-    
+
     def load_models(self):
-        """Load all models from their respective paths"""
-        # Load ambiguity model - assuming it's a language model that needs to be loaded differently
+        """Load all models from their respective paths."""
+        # Load ambiguity model using AmbiguityDetector
         try:
-            """
-            this is a temporary place holder -- Mehtab and Dev update it for their model and how it needs to be loaded i.e if it's a full model or a 
-            state dictionary or a pkl file, etc
-            """
             print(f"Loading ambiguity model from {self.ambiguity_model_path}")
-            self.ambiguity_model = None  # Replace with actual loading code
+            self.ambiguity_detector = AmbiguityDetector.load_model(self.ambiguity_model_path)
         except Exception as e:
             print(f"Error loading ambiguity model: {e}")
-            self.ambiguity_model = None
-        
+            self.ambiguity_detector = None
 
+        # Load intent model and TFIDF vectorizer using joblib
         try:
             print(f"Loading intent classifier from {self.intent_model_path}")
-            with open(self.intent_model_path, 'rb') as f:
-                self.intent_model = pickle.load(f)
-            
+            self.intent_model = joblib.load(self.intent_model_path)
             print(f"Loading TFIDF vectorizer from {self.intent_tfidf_path}")
-            with open(self.intent_tfidf_path, 'rb') as f:
-                self.intent_tfidf = pickle.load(f)
+            self.intent_tfidf = joblib.load(self.intent_tfidf_path)
         except Exception as e:
             print(f"Error loading intent classifier or TFIDF: {e}")
             self.intent_model = None
             self.intent_tfidf = None
-        
 
+        # Load sentiment model using Transformers (if path provided)
         if self.sentiment_model_path:
             try:
                 print(f"Loading sentiment classifier from {self.sentiment_model_path}")
-                with open(self.sentiment_model_path, 'rb') as f:
-                    self.sentiment_model = pickle.load(f)
+                self.sentiment_tokenizer = AutoTokenizer.from_pretrained(self.sentiment_model_path)
+                self.sentiment_model = AutoModelForSequenceClassification.from_pretrained(self.sentiment_model_path)
+                # Define label names as provided in your sentiment code
+                self.sentiment_label_names = ["sadness", "joy", "love", "anger", "fear", "surprise"]
             except Exception as e:
                 print(f"Error loading sentiment model: {e}")
                 self.sentiment_model = None
+                self.sentiment_tokenizer = None
+                self.sentiment_label_names = None
         else:
-            print("No sentiment model path provided. Will look for model during first prediction.")
+            print("No sentiment model path provided. Sentiment prediction will be skipped.")
             self.sentiment_model = None
-    
-    def find_sentiment_model(self):
-        """Try to find sentiment model in the current directory or common locations"""
-        common_names = ['sentiment_model.pkl', 'sentiment_classifier.pkl', 'sentiment.pkl']
-        common_dirs = ['.', './models', '../models']
-        
-        for directory in common_dirs:
-            for name in common_names:
-                path = os.path.join(directory, name)
-                if os.path.exists(path):
-                    print(f"Found sentiment model at {path}")
-                    with open(path, 'rb') as f:
-                        self.sentiment_model = pickle.load(f)
-                    return True
-        
-        print("Sentiment model not found. Sentiment classification will be skipped.")
-        return False
-    
+            self.sentiment_tokenizer = None
+            self.sentiment_label_names = None
+
     def predict_ambiguity(self, text):
-        """Predict ambiguity score for the input text"""
-        if self.ambiguity_model is None:
+        """Predict ambiguity score and analysis for the input text."""
+        if self.ambiguity_detector is None:
             return {"error": "Ambiguity model not loaded"}
-        
         try:
-            # This is a placeholder. Replace with actual prediction code for your model
-            # For example, if it's a Hugging Face model:
-            # inputs = self.ambiguity_tokenizer(text, return_tensors="pt", truncation=True, padding=True)
-            # outputs = self.ambiguity_model(**inputs)
-            # prediction = outputs.logits.softmax(dim=1).tolist()[0]
-            # return {"is_ambiguous": bool(np.argmax(prediction)), "confidence": max(prediction)}
-            
-            # Placeholder return value
-            return {"is_ambiguous": False, "confidence": 0.8}
-        except Exception as e:
-            return {"error": f"Error in ambiguity prediction: {str(e)}"}
-    
-    def predict_intent(self, text):
-        """Predict intent for the input text"""
-        if self.intent_model is None or self.intent_tfidf is None:
-            return {"error": "Intent model or TFIDF vectorizer not loaded"}
-        
-        try:
-            # Transform text using the TFIDF vectorizer
-            text_transformed = self.intent_tfidf.transform([text])
-            
-            # Predict intent
-            intent_prediction = self.intent_model.predict(text_transformed)[0]
-            intent_proba = self.intent_model.predict_proba(text_transformed)[0]
-            
-            # Get the highest probability and its class
-            max_prob_idx = np.argmax(intent_proba)
-            confidence = intent_proba[max_prob_idx]
-            
+            # Get prediction and probabilities from the ambiguity detector
+            prediction, probabilities = self.ambiguity_detector.predict(text)
+            # Assuming prediction[0] == 1 indicates ambiguous
+            is_ambiguous = prediction[0] == 1
+            confidence = float(np.max(probabilities[0])) if probabilities[0].size > 0 else None
+
+            # Get detailed analysis/explanation
+            analysis = self.ambiguity_detector.analyze_ambiguity(text)
+
             return {
-                "intent": intent_prediction,
-                "confidence": float(confidence),
-                "all_intents": {
-                    intent_class: float(prob) 
-                    for intent_class, prob in zip(self.intent_model.classes_, intent_proba)
-                }
+                "is_ambiguous": is_ambiguous,
+                "confidence": confidence,
+                "analysis": analysis
             }
         except Exception as e:
-            return {"error": f"Error in intent prediction: {str(e)}"}
-    
-    def predict_sentiment(self, text):
-        """Predict sentiment for the input text"""
-        if self.sentiment_model is None:
-            # Try to find the sentiment model if it wasn't loaded initially
-            if not self.find_sentiment_model():
-                return {"error": "Sentiment model not found"}
-        
+            return {"error": f"Error in ambiguity prediction: {str(e)}"}
+
+    def predict_intent(self, text):
+        """Predict intent for the input text."""
+        if self.intent_model is None or self.intent_tfidf is None:
+            return {"error": "Intent model or TFIDF vectorizer not loaded"}
         try:
-            # This assumes the sentiment model has a similar API to the intent model
-            # Modify as needed for your specific sentiment model
-            
-            # Check if the model has a vectorizer or if it needs the same TFIDF as intent
-            if hasattr(self.sentiment_model, 'predict') and hasattr(self.sentiment_model, 'predict_proba'):
-                # Try using the intent TFIDF first
-                try:
-                    text_transformed = self.intent_tfidf.transform([text])
-                    sentiment_prediction = self.sentiment_model.predict(text_transformed)[0]
-                    sentiment_proba = self.sentiment_model.predict_proba(text_transformed)[0]
-                except:
-                    # If that fails, try direct prediction (model might have its own vectorizer)
-                    sentiment_prediction = self.sentiment_model.predict([text])[0]
-                    sentiment_proba = self.sentiment_model.predict_proba([text])[0]
-                
-                max_prob_idx = np.argmax(sentiment_proba)
-                confidence = sentiment_proba[max_prob_idx]
-                
-                return {
-                    "sentiment": sentiment_prediction,
-                    "confidence": float(confidence),
-                    "all_sentiments": {
-                        sentiment_class: float(prob)
-                        for sentiment_class, prob in zip(self.sentiment_model.classes_, sentiment_proba)
-                    }
-                }
-            else:
-                # For other types of models that might have different APIs
-                return {"error": "Sentiment model has an unsupported interface"}
+            text_transformed = self.intent_tfidf.transform([text])
+
+            predicted_intent = self.intent_model.predict(text_transformed)[0]
+            return {"intent": predicted_intent}
+        except Exception as e:
+            return {"error": f"Error in intent prediction: {str(e)}"}
+
+    def predict_sentiment(self, text):
+        """Predict sentiment for the input text using the Transformers model."""
+        if self.sentiment_model is None or self.sentiment_tokenizer is None:
+            return {"error": "Sentiment model not loaded"}
+        try:
+            # Tokenize the input text
+            inputs = self.sentiment_tokenizer(
+                text,
+                return_tensors="pt",
+                truncation=True,
+                padding="max_length",
+                max_length=64
+            )
+            with torch.no_grad():
+                outputs = self.sentiment_model(**inputs)
+            logits = outputs.logits
+            predicted_class_id = int(torch.argmax(logits, dim=-1).item())
+            predicted_label = self.sentiment_label_names[predicted_class_id]
+            confidence = float(torch.softmax(logits, dim=-1)[0][predicted_class_id].item())
+
+            return {
+                "sentiment": predicted_label,
+                "confidence": confidence,
+                "logits": logits.tolist()  
+            }
         except Exception as e:
             return {"error": f"Error in sentiment prediction: {str(e)}"}
-    
+
     def process_text(self, text):
         """
-        Process the input text through all models and return results in a dictionary
+        Process the input text through all models and return results.
         
         Args:
-            text: The input text to process
+            text (str): The input text to process.
             
         Returns:
-            A dictionary containing the predictions from all models
+            dict: A dictionary containing predictions from ambiguity, intent, and sentiment models.
         """
         results = {
             "input_text": text,
@@ -185,26 +146,25 @@ class ModelPipeline:
         return results
 
 
-# Example usage
+
 if __name__ == "__main__":
-    # Example paths - replace with your actual file paths
-    ambiguity_model_path = "path/to/ambiguity_model"
-    intent_model_path = "path/to/intent_classifier.pkl"
-    intent_tfidf_path = "path/to/intent_tfidf.pkl"
-    sentiment_model_path = "path/to/sentiment_model.pkl" 
-    
-    # Initialize the pipeline
+
+    ambiguity_model_path = "ambiguity_model_files/model.pkl"
+    intent_model_path = "intent_model_files/intent_classifier.pkl"
+    intent_tfidf_path = "intent_model_files/tfidf_vectorizer.pkl"
+    sentiment_model_path = "final_model_directory"  # Directory for the sentiment model
+
     pipeline = ModelPipeline(
         ambiguity_model_path,
         intent_model_path,
         intent_tfidf_path,
         sentiment_model_path
     )
-    
+
     # Process a sample text
     sample_text = "I'm not sure if I want to cancel my subscription or just pause it for now."
     results = pipeline.process_text(sample_text)
-    
-    # Print results
+
     import json
-    print(json.dumps(results, indent=2))
+    print(json.dumps(results, indent=2, default=lambda x: x.item() if hasattr(x, 'item') else x))
+
