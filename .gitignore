@@ -11,3 +11,4 @@ ambiguity_model/ambiguity-detection-model/runs/Mar04_19-18-12_macbookpro.lan/eve
 ambiguity_model/ambiguity-detection-model/runs/Mar04_19-24-40_macbookpro.lan/events.out.tfevents.1741134280.macbookpro.lan.59552.0
 .venv
 /pipeline/final_model_directory
+/backend/final_model_directory
