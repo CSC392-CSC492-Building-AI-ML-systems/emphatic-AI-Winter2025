@@ -14,7 +14,7 @@ const AIChat: React.FC = () => {
   const [messages, setMessages] = useState<Message[]>([
     {
       id: '1',
-      content: 'Hello! I\'m your AI assistant. How can I help you today?',
+      content: "Hello! I'm your AI assistant. How can I help you today?",
       sender: 'ai',
       timestamp: new Date(),
     },
@@ -28,11 +28,10 @@ const AIChat: React.FC = () => {
     messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' });
   }, [messages]);
 
-  const handleSendMessage = (e: React.FormEvent) => {
+  const handleSendMessage = async (e: React.FormEvent) => {
     e.preventDefault();
-    
     if (!input.trim()) return;
-    
+
     // Add user message
     const userMessage: Message = {
       id: Date.now().toString(),
@@ -40,22 +39,47 @@ const AIChat: React.FC = () => {
       sender: 'user',
       timestamp: new Date(),
     };
-    
     setMessages(prev => [...prev, userMessage]);
-    setInput('');
     
-    // Simulate AI response
+    // Clear input and show typing indicator
+    const currentInput = input; // Save current input for later use in the request
+    setInput('');
     setIsTyping(true);
-    setTimeout(() => {
+
+    try {
+      const response = await fetch("http://localhost:4010/predict", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ text: currentInput }),
+      });
+      
+      if (!response.ok) {
+        throw new Error(`Server error: ${response.status}`);
+      }
+      
+      const data = await response.json();
+
+      // Combine the returned prediction sections into one message string
+      const aiResponseText = data.response_text
+
       const aiMessage: Message = {
         id: (Date.now() + 1).toString(),
-        content: `I'm an AI assistant responding to your message: "${input}"`,
+        content: aiResponseText,
         sender: 'ai',
         timestamp: new Date(),
       };
       setMessages(prev => [...prev, aiMessage]);
+    } catch (error: any) {
+      const errorMessage: Message = {
+        id: (Date.now() + 2).toString(),
+        content: `Error: ${error.message}`,
+        sender: 'ai',
+        timestamp: new Date(),
+      };
+      setMessages(prev => [...prev, errorMessage]);
+    } finally {
       setIsTyping(false);
-    }, 1500);
+    }
   };
 
   return (

@@ -12,3 +12,4 @@ ambiguity_model/ambiguity-detection-model/runs/Mar04_19-24-40_macbookpro.lan/eve
 .venv
 /pipeline/final_model_directory
 /backend/final_model_directory
+.env
