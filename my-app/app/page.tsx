@@ -1,5 +1,4 @@
 'use client';
-
 import React, { useState, useRef, useEffect } from 'react';
 import { Header } from '@/components/Header';
 
@@ -21,7 +20,25 @@ const AIChat: React.FC = () => {
   ]);
   const [input, setInput] = useState<string>('');
   const [isTyping, setIsTyping] = useState<boolean>(false);
+  const [sessionId, setSessionId] = useState<string | null>(null);
   const messagesEndRef = useRef<HTMLDivElement>(null);
+
+  // Generate a session ID on component mount
+  useEffect(() => {
+    // Generate a simple UUID for the session
+    const generateSessionId = () => {
+      return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {
+        const r = Math.random() * 16 | 0, v = c === 'x' ? r : (r & 0x3 | 0x8);
+        return v.toString(16);
+      });
+    };
+    
+    setSessionId(generateSessionId());
+  }, []);
+
+  useEffect(() => {
+    handleClearConversation();
+  }, []);
 
   // Auto-scroll to bottom when new messages appear
   useEffect(() => {
@@ -40,28 +57,36 @@ const AIChat: React.FC = () => {
       timestamp: new Date(),
     };
     setMessages(prev => [...prev, userMessage]);
-    
+
     // Clear input and show typing indicator
     const currentInput = input; // Save current input for later use in the request
     setInput('');
     setIsTyping(true);
 
     try {
-      const response = await fetch("http://localhost:4010/predict", {
+      // Use the /generate_response endpoint instead of /predict for context-awareness
+      const response = await fetch("http://localhost:4010/generate_response", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ text: currentInput }),
+        body: JSON.stringify({ 
+          text: currentInput,
+          session_id: sessionId
+        }),
       });
-      
+
       if (!response.ok) {
         throw new Error(`Server error: ${response.status}`);
       }
-      
+
       const data = await response.json();
+      
+      // Store the returned session ID if it's provided
+      if (data.session_id && !sessionId) {
+        setSessionId(data.session_id);
+      }
 
-      // Combine the returned prediction sections into one message string
-      const aiResponseText = data.response_text
-
+      // Get the AI response text
+      const aiResponseText = data.response_text;
       const aiMessage: Message = {
         id: (Date.now() + 1).toString(),
         content: aiResponseText,
@@ -79,6 +104,29 @@ const AIChat: React.FC = () => {
       setMessages(prev => [...prev, errorMessage]);
     } finally {
       setIsTyping(false);
+    }
+  };
+
+  // Add a function to clear conversation
+  const handleClearConversation = async () => {
+    if (!sessionId) return;
+    
+    try {
+      await fetch("http://localhost:4010/clear_session", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ session_id: sessionId }),
+      });
+      
+      // Reset messages to just the welcome message
+      setMessages([{
+        id: Date.now().toString(),
+        content: "Conversation cleared. How can I help you today?",
+        sender: 'ai',
+        timestamp: new Date(),
+      }]);
+    } catch (error) {
+      console.error("Failed to clear session:", error);
     }
   };
 
