@@ -4,8 +4,6 @@ import torch
 import torch.nn as nn
 import pandas as pd
 
-print(pd.__version__)
-
 
 vectorizer = joblib.load("intent_model_files/tfidf_vectorizer.pkl")
 
