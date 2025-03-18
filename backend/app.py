@@ -19,6 +19,8 @@ class ResponseGenerator:
         """Initialize the response generator."""
         self.client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
         self.conversation_history = {}
+        # Track if we're in a clarification loop
+        self.clarification_state = {}
 
     def generate_response(self, analysis_results, session_id=None):
         """
@@ -45,6 +47,23 @@ class ResponseGenerator:
         ambiguity_info = clean_for_json(ambiguity_info)
         intent_info = clean_for_json(intent_info)
         sentiment_info = clean_for_json(sentiment_info)
+
+        # Check clarification state for this session
+        is_response_to_clarification = False
+        if session_id:
+            if session_id not in self.clarification_state:
+                self.clarification_state[session_id] = False
+            else:
+                # If the previous response was a clarification question
+                is_response_to_clarification = self.clarification_state[session_id]
+        
+        # Override ambiguity if this is a response to a clarification
+        if is_response_to_clarification:
+            # We're in a clarification flow, so treat this as a direct answer even if it seems ambiguous
+            ambiguity_info["is_ambiguous"] = False
+            ambiguity_info["original_ambiguity"] = ambiguity_info.get("is_ambiguous", False)
+            # Add context about previous clarification to the analysis
+            ambiguity_info["context"] = "Response to previous clarification question"
 
         if session_id and session_id not in self.conversation_history:
             self.conversation_history[session_id] = [
@@ -88,12 +107,16 @@ class ResponseGenerator:
                     system_message = self.conversation_history[session_id][0]
                     self.conversation_history[session_id] = [system_message] + self.conversation_history[session_id][-19:]
 
+            # Determine if the response is a clarification and update the state
             is_clarification = self._is_clarification_question(response_text, ambiguity_info)
+            if session_id:
+                self.clarification_state[session_id] = is_clarification
 
             # Ensure all values are properly serializable
             result = {
                 "response_text": str(response_text),
                 "is_clarification": bool(is_clarification),
+                "was_response_to_clarification": bool(is_response_to_clarification),
                 "analysis": {
                     "ambiguity": ambiguity_info,
                     "intent": intent_info,
@@ -113,8 +136,13 @@ class ResponseGenerator:
         intent = intent_info.get("intent", "unknown")
         sentiment = sentiment_info.get("sentiment", "neutral")
         
+        # Check if this is a response to a clarification
+        context_note = ""
+        if "context" in ambiguity_info:
+            context_note = f"\nContext: {ambiguity_info['context']}"
+        
         prompt = f"""
-User input: "{input_text}"
+User input: "{input_text}"{context_note}
 
 Analysis:
 - Ambiguity: {'Ambiguous' if is_ambiguous else 'Not ambiguous'}
@@ -159,6 +187,16 @@ Your response:
             if prefix in response_lower[:100]:  
                 return True
                 
+        return False
+
+    def clear_session(self, session_id):
+        """Clear conversation history for a session while preserving the system message."""
+        if session_id in self.conversation_history:
+            system_message = self.conversation_history[session_id][0]
+            self.conversation_history[session_id] = [system_message]
+            # Reset clarification state
+            self.clarification_state[session_id] = False
+            return True
         return False
 
 class ModelPipeline:
