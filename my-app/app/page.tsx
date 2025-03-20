@@ -84,6 +84,7 @@ const AIChat: React.FC = () => {
       if (data.session_id && !sessionId) {
         setSessionId(data.session_id);
       }
+      console.log(data);
 
       // Get the AI response text
       const aiResponseText = data.response_text;

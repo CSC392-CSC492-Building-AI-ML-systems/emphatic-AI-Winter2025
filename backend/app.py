@@ -11,6 +11,9 @@ from openai import OpenAI
 from flask.json import JSONEncoder
 from ambiguitydetector import AmbiguityDetector
 import json
+import logging
+
+logging.basicConfig(level=logging.INFO)
 
 load_dotenv()
 
@@ -221,9 +224,11 @@ class ModelPipeline:
         """Load all models from their respective paths."""
         # Load ambiguity model using AmbiguityDetector
         try:
-            print(f"Loading ambiguity model from {self.ambiguity_model_path}")
+            app.logger.info(f"Loading ambiguity model from {self.ambiguity_model_path}")
+            logging.info(f"Loading ambiguity model from {self.ambiguity_model_path}")
             self.ambiguity_detector = AmbiguityDetector.load_model(self.ambiguity_model_path)
         except Exception as e:
+            logging.info(f"Error loading ambiguity model: {e}")
             print(f"Error loading ambiguity model: {e}")
             self.ambiguity_detector = None
 
