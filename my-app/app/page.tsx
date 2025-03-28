@@ -62,10 +62,10 @@ const AIChat: React.FC = () => {
     const currentInput = input; // Save current input for later use in the request
     setInput('');
     setIsTyping(true);
-
+    
     try {
       // Use the /generate_response endpoint instead of /predict for context-awareness
-      const response = await fetch(`${process.env.BACKEND_URL}/generate_response`, {
+      const response = await fetch(`${process.env.NEXT_PUBLIC_BACKEND_URL}/generate_response`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ 
@@ -113,7 +113,7 @@ const AIChat: React.FC = () => {
     if (!sessionId) return;
     
     try {
-      await fetch(`${process.env.BACKEND_URL}/clear_session`, {
+      await fetch(`${process.env.NEXT_PUBLIC_BACKEND_URL}/clear_session`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ session_id: sessionId }),
