@@ -65,7 +65,7 @@ const AIChat: React.FC = () => {
 
     try {
       // Use the /generate_response endpoint instead of /predict for context-awareness
-      const response = await fetch("http://localhost:4010/generate_response", {
+      const response = await fetch(`${process.env.BACKEND_URL}/generate_response`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ 
@@ -113,7 +113,7 @@ const AIChat: React.FC = () => {
     if (!sessionId) return;
     
     try {
-      await fetch("http://localhost:4010/clear_session", {
+      await fetch(`${process.env.BACKEND_URL}/clear_session`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ session_id: sessionId }),
