@@ -19,7 +19,7 @@ export const Header: React.FC = () => {
                     <path d="M19.967 17.484A4 4 0 0 1 18 18"/>
                     </svg>
                     </div>
-                    <h1 className="text-xl font-semibold text-gray-200">Empathetic AI Agent</h1>
+                    <h1 className="text-xl font-semibold text-gray-200">Empathic AI Agent</h1>
                 </div>
             </div>
         </header>
